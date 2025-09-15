@@ -1,0 +1,34 @@
+{
+  "Animals": [
+    {
+      "name": "Calico Cat",
+      "scientific_name": "Felis catus",
+      "habitat": "Urban",
+      "drops": "Fur",
+      "attack": 40,
+      "defense": 35,
+      "health": 55,
+      "speed": 70,
+      "abilities": "Lucky Pelt",
+      "catagory": "Mammal",
+      "moves": "Scratch, Pounce, Charm, Quick Dash, Night Vision, Playful Swipe",
+      "sprite": "https://i.postimg.cc/kgZHx9N0/calico.png",
+      "rarity": "Common",
+      "description": "A nimble and curious companion, the domestic cat uses its sharp senses to detect threats and hidden resources. Though small, it’s agile, stealthy, and fiercely protective when cornered."
+    },
+    {
+      "name": "Beagle Hound",
+      "scientific_name": "Canis lupus familiaris",
+      "habitat": "Urban",
+      "drops": "Fur",
+      "attack": 45,
+      "defense": 40,
+      "health": 65,
+      "speed": 70,
+      "abilities": "Keen Nose",
+      "catagory": "Mammal",
+      "moves": "Bite, Quick Dash, Howl, Sniff Out, Pounce, Agility Strike",
+      "sprite": "https://i.postimg.cc/brmHLB7f/beagle-hound.png",
+      "rarity": "Uncommon",
+      "description": "A loyal and protective companion, the domestic dog excels at guarding and tracking with its keen senses. Strong and courageous, it thrives in a pack and will defend its allies without hesitation."
+    }]}

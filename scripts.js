@@ -9,7 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
         'Uncommon': 0.25,
         'Rare': 0.10,
         'Epic': 0.04,
-        'Legendary': 0.01
+        'Legendary': 0.01,
+        'Mythical': 0.005
     };
 
     async function loadData() {
@@ -18,12 +19,28 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
-            const data = await response.json();
+
+            // Attempt to parse the JSON data
+            let data = await response.text();
+            
+            // This regex will find the first JSON object in the file
+            const jsonMatch = data.match(/\{[\s\S]*\}/);
+            if (jsonMatch) {
+                data = JSON.parse(jsonMatch[0]);
+            } else {
+                throw new Error("Could not find a valid JSON object in the file.");
+            }
+
+            if (!data.Animals || !Array.isArray(data.Animals)) {
+                throw new Error("JSON data is missing the 'Animals' array.");
+            }
+
             allAnimals = data.Animals;
             populateBiomes();
         } catch (error) {
-            animalDisplay.innerHTML = `<p style="color:red;">Error loading animal data: ${error.message}. Make sure 'Organisms.json' is in the same folder.</p>`;
+            animalDisplay.innerHTML = `<p style="color:red;">Error loading animal data: ${error.message}. Please make sure 'Organisms.json' is a valid JSON file in the same folder.</p>`;
             console.error('Error loading the JSON file:', error);
+            console.log("Please check if the file format is a single JSON object with an 'Animals' array.");
         }
     }
 
