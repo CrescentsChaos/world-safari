@@ -62,7 +62,7 @@ async function loadAnimalData() {
 }
 // Rarity weights for encounter probability
 const rarityWeights = {
-    'Common': 160,
+    'Common': 50,
     'Uncommon': 80,
     'Rare': 40,
     'Epic': 20,
@@ -130,14 +130,23 @@ function exploreCurrentBiome() {
     
     gameData.explorations++;
     
-    // Get animals from current biome
-    const biomeAnimals = animalData.Animals.filter(animal => 
-        animal.habitat === gameData.currentBiome
-    );
+    // Get animals from current biome - handle multiple habitats per animal
+    const biomeAnimals = animalData.Animals.filter(animal => {
+        if (!animal.habitat) return false;
+        
+        // Split habitat string by comma and check if current biome matches any of them
+        const animalHabitats = animal.habitat.split(',').map(h => h.trim().toLowerCase());
+        const currentBiome = gameData.currentBiome.toLowerCase();
+        
+        return animalHabitats.includes(currentBiome);
+    });
+    
+    console.log(`Exploring ${gameData.currentBiome}:`, biomeAnimals.length, 'animals found');
+    console.log('Available animals:', biomeAnimals.map(a => `${a.name} (habitats: ${a.habitat})`));
     
     if (biomeAnimals.length === 0) {
         showNoEncounter();
-        addLogEntry(`🔍 Searched ${gameData.currentBiome} but found no wildlife this time.`);
+        addLogEntry(`🔍 Searched ${gameData.currentBiome} but found no wildlife this time. (No animals in database for this biome)`);
         updateStats();
         return;
     }
