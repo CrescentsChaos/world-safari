@@ -106,7 +106,6 @@ body {
 
 .biomes-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: clamp(16px, 3vw, 24px);
     margin-bottom: clamp(24px, 6vw, 48px);
     padding: 0;
@@ -122,8 +121,6 @@ body {
     transition: var(--transition);
     position: relative;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
     text-align: center;
     min-height: 280px;
     width: 100%;
@@ -343,21 +340,16 @@ body {
 }
 
 .animal-sprite {
-    flex: 1 1 auto; /* lets sprite grow/shrink inside flexbox */
-    width: 100%;
-    max-width: 400px;
+    width: min(400px, 90%);
     height: auto;
     max-height: 200px;
-    
     border-radius: var(--border-radius);
     border: 3px solid rgba(255, 255, 255, 0.3);
     object-fit: cover;
-
     background: var(--glass-bg);
     backdrop-filter: blur(10px);
     box-shadow: var(--shadow-md);
     animation: float 3s ease-in-out infinite;
-    display: block;
 }
 
 @keyframes float {
