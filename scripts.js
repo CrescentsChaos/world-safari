@@ -181,7 +181,7 @@ function selectAnimalByRarity(animals) {
     if (pool.length === 0) return null;
     
     // Add some randomness - sometimes no encounter
-    if (Math.random() < 0.3) return null; // 30% chance of no encounter
+    if (Math.random() < 0) return null; // 30% chance of no encounter
     
     return pool[Math.floor(Math.random() * pool.length)];
 }
