@@ -209,16 +209,17 @@ body {
 
 
 .animal-sprite {
-    width: 200px;
-    height: 200px;
-    border-radius: 15px;
-    margin: 0 auto 20px;
-    border: 3px solid;
-    object-fit: contain;
-    background: rgba(255,255,255,0.1);
-    backdrop-filter: blur(5px);
-    animation: bounce 1s ease-in-out;
-    display: block;
+  width: 400px; /* Adjusted to match your desired width */
+  height: 200px; /* Adjusted to match your desired height */
+  border-radius: 15px;
+  margin: 0 auto 20px;
+  border: 5px solid #6c757d; /* Slightly thicker border with a subtle color */
+  object-fit: contain;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+  animation: bounce 1.2s ease-in-out infinite alternate; /* Longer, more continuous bounce */
+  display: block;
 }
 
 @keyframes bounce {
@@ -242,15 +243,23 @@ body {
     margin-bottom: 15px;
 }
 
+/* Base styles for the rarity badge */
 .rarity-badge {
-    display: inline-block;
-    padding: 5px 15px;
-    border-radius: 20px;
-    font-weight: bold;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-    font-size: 0.9rem;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  /* New additions */
+  background: linear-gradient(45deg, #e0e0e0, #f0f0f0);
+  color: #333;
 }
+
 
 .animal-description {
     color: #e0e0e0;
