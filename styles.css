@@ -343,12 +343,16 @@ body {
 }
 
 .animal-sprite {
-    width: min(400px, 90vw);
-    height: min(200px, 45vw);
+    flex: 1 1 auto; /* lets sprite grow/shrink inside flexbox */
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    max-height: 200px;
+    
     border-radius: var(--border-radius);
-    margin: 0 auto 20px;
     border: 3px solid rgba(255, 255, 255, 0.3);
     object-fit: cover;
+
     background: var(--glass-bg);
     backdrop-filter: blur(10px);
     box-shadow: var(--shadow-md);
