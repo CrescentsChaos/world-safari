@@ -189,6 +189,23 @@ function selectAnimalByRarity(animals) {
 function showAnimalEncounter(animal) {
     hideEncounterResult();
     
+    // Handle sprite loading with smooth transition
+    const spriteImg = document.getElementById('animal-sprite');
+    spriteImg.style.opacity = '0';
+    
+    // Create a new image to preload
+    const newImg = new Image();
+    newImg.onload = function() {
+        spriteImg.src = animal.sprite;
+        spriteImg.style.opacity = '1';
+    };
+    newImg.onerror = function() {
+        // Fallback if image fails to load
+        spriteImg.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9IiNmMGYwZjAiLz48dGV4dCB4PSI1MCIgeT0iNTUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OTk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+Tm8gSW1hZ2U8L3RleHQ+PC9zdmc+';
+        spriteImg.style.opacity = '1';
+    };
+    newImg.src = animal.sprite;
+    
     // Set animal data
     document.getElementById('animal-sprite').src = animal.sprite;
     document.getElementById('animal-name').textContent = animal.name;
