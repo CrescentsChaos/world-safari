@@ -106,38 +106,30 @@ body {
 
 .biomes-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: clamp(12px, 2vw, 20px);
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: clamp(16px, 3vw, 24px);
     margin-bottom: clamp(24px, 6vw, 48px);
-    padding: 0 clamp(8px, 1.5vw, 12px);
-    align-items: stretch;   /* equal height rows */
-    justify-items: stretch; /* cards take full column width */
+    padding: 0;
 }
-
-
 
 .biome-card {
     background: var(--glass-bg);
     backdrop-filter: blur(16px) saturate(180%);
     border-radius: var(--border-radius);
-    padding: clamp(16px, 4vw, 28px);
+    padding: clamp(18px, 4vw, 24px);
     border: 1px solid var(--glass-border);
     cursor: pointer;
-    transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+    transition: var(--transition);
     position: relative;
     overflow: hidden;
-    min-height: 220px; /* fits 400x200 imgs nicely */
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
     text-align: center;
-    gap: 12px; /* neat spacing between elements */
-    width: 100%; /* fills its grid column */
-    max-width: 100%;
+    min-height: 280px;
+    width: 100%;
 }
 
-/* subtle highlight swipe */
+/* Subtle highlight effect */
 .biome-card::before {
     content: '';
     position: absolute;
@@ -148,6 +140,7 @@ body {
     background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
     transition: transform 0.8s ease;
     transform: translateX(0);
+    z-index: 1;
 }
 
 .biome-card:hover::before {
@@ -156,55 +149,43 @@ body {
 
 .biome-card:hover {
     transform: translateY(-6px) scale(1.02);
-    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+    box-shadow: var(--shadow-lg);
     border-color: var(--text-accent);
     background: rgba(255, 255, 255, 0.18);
 }
 
-/* image inside card */
-.biome-card img {
-    width: 100%;
-    height: auto;
-    max-height: 200px; 
-    object-fit: cover;
-    border-radius: calc(var(--border-radius) - 6px);
-    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
-}
-
-/* biome title */
-.biome-card h3 {
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: var(--text-primary);
-    margin: 0;
-}
-
-/* biome description */
-.biome-card p {
-    font-size: 0.95rem;
-    color: var(--text-secondary);
-    line-height: 1.5;
-    margin: 0;
-    max-width: 90%;
-}
-
-
 .biome-card:active {
-    transform: translateY(-4px);
+    transform: translateY(-2px) scale(0.98);
 }
 
 .biome-icon {
-    font-size: clamp(3rem, 8vw, 4rem);
+    position: relative;
+    z-index: 2;
     margin-bottom: 16px;
-    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
+    flex-shrink: 0;
+}
+
+.biome-icon img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: calc(var(--border-radius) - 8px);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+}
+
+.biome-card:hover .biome-icon img {
+    transform: scale(1.05);
 }
 
 .biome-name {
-    font-size: clamp(1.1rem, 4vw, 1.5rem);
+    font-size: clamp(1.1rem, 3vw, 1.3rem);
     color: var(--text-primary);
     margin-bottom: 12px;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: -0.01em;
+    position: relative;
+    z-index: 2;
 }
 
 .biome-description {
@@ -215,6 +196,9 @@ body {
     flex-grow: 1;
     display: flex;
     align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
 }
 
 .encounter-section {
@@ -476,6 +460,12 @@ body {
     animation: statShine 2s ease-in-out infinite;
 }
 
+.stat-value {
+    font-size: clamp(0.85rem, 2vw, 0.95rem);
+    font-weight: 600;
+    color: var(--text-accent);
+}
+
 @keyframes statShine {
     0% { left: -100%; }
     100% { left: 100%; }
@@ -635,6 +625,27 @@ body {
 
     .biomes-container {
         grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    
+    .biome-card {
+        min-height: 260px;
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+    .biomes-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .biome-card {
+        min-height: 240px;
+        padding: 16px;
+    }
+    
+    .biome-icon img {
+        height: 140px;
     }
 }
 
@@ -654,6 +665,10 @@ body {
     
     .btn:active {
         transform: scale(0.98);
+    }
+    
+    .stat-block:hover {
+        transform: none;
     }
 }
 
