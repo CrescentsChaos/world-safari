@@ -3,157 +3,208 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biome Explorer</title>
+    <title>Biome Explorer - Professional Edition</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="game-container">
         <header class="header">
             <h1 class="game-title">🌍 Biome Explorer</h1>
-            <p class="subtitle">Discover amazing creatures across different habitats</p>
+            <p class="subtitle">Discover amazing creatures across different habitats worldwide</p>
             
             <div class="stats-bar">
                 <div class="stat-item">
                     <div class="stat-value" id="explorations">0</div>
-                    <div>Explorations</div>
+                    <div class="stat-label">Explorations</div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-value" id="encounters">0</div>
-                    <div>Encounters</div>
+                    <div class="stat-label">Encounters</div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-value" id="species-found">0</div>
-                    <div>Species Found</div>
+                    <div class="stat-label">Species Found</div>
                 </div>
             </div>
         </header>
 
         <div class="biomes-container" id="biomes-container">
             <div class="biome-card" data-biome="Urban">
-                <div class="biome-icon">🏙️</div>
-                <div class="biome-name">Urban Environment</div>
-                <div class="biome-description">Explore bustling cities and neighborhoods where adaptable animals thrive alongside humans.</div>
-            </div>
-            
-            <div class="biome-card" data-biome="Jungle">
-                <div class="biome-icon">🌲</div>
-                <div class="biome-name">Forest Depths</div>
-                <div class="biome-description">Venture into dense woodlands teeming with mysterious creatures and ancient wildlife.</div>
-            </div>
-            
-            <div class="biome-card" data-biome="Ocean">
-                <div class="biome-icon">🌊</div>
-                <div class="biome-name">Ocean Depths</div>
-                <div class="biome-description">Dive into the vast blue to discover the wonders of marine life in their natural habitat.</div>
-            </div>
-            
-            <div class="biome-card" data-biome="Desert">
-                <div class="biome-icon">🏜️</div>
-                <div class="biome-name">Desert Sands</div>
-                <div class="biome-description">Traverse harsh desert landscapes where only the most resilient creatures survive.</div>
-            </div>
-            
-            <div class="biome-card" data-biome="Swamp">
-                <div class="biome-icon">🐊</div>
-                <div class="biome-name">Mysterious Swamps</div>
-                <div class="biome-description">Wade through murky wetlands where amphibians and reptiles rule the waterlogged domain.</div>
-            </div>
-            
-            <div class="biome-card" data-biome="Savanna">
-                <div class="biome-icon">🦁</div>
-                <div class="biome-name">African Savanna</div>
-                <div class="biome-description">Roam the endless grasslands where majestic herds migrate and predators hunt.</div>
-            </div>
-            
-            <div class="biome-card" data-biome="Taiga">
-                <div class="biome-icon">🌲</div>
-                <div class="biome-name">Boreal Forest</div>
-                <div class="biome-description">Trek through the northern coniferous forests where hardy creatures endure long winters.</div>
-            </div>
-            
-            <div class="biome-card" data-biome="Mountain">
-                <div class="biome-icon">🏔️</div>
-                <div class="biome-name">Mountain Peaks</div>
-                <div class="biome-description">Ascend towering heights where only the most adapted creatures can survive the thin air.</div>
-            </div>
-            
-            <div class="biome-card" data-biome="Coastal">
-                <div class="biome-icon">🏖️</div>
-                <div class="biome-name">Coastal Shores</div>
-                <div class="biome-description">Explore where land meets sea, home to creatures that thrive in both worlds.</div>
-            </div>
-            
-            <div class="biome-card" data-biome="Volcanic">
-                <div class="biome-icon">🌋</div>
-                <div class="biome-name">Volcanic Regions</div>
-                <div class="biome-description">Venture into areas of extreme heat and geological activity where life finds extraordinary ways.</div>
-            </div>
-            
-            <div class="biome-card" data-biome="Polar">
-                <div class="biome-icon">🐧</div>
-                <div class="biome-name">Polar Ice</div>
-                <div class="biome-description">Journey to the Earth's frozen ends where creatures have mastered survival in extreme cold.</div>
-            </div>
-            
-            <div class="biome-card" data-biome="Coral Reef">
-                <div class="biome-icon">🐠</div>
-                <div class="biome-name">Coral Reef</div>
-                <div class="biome-description">Dive into vibrant underwater cities where colorful marine life creates living masterpieces.</div>
-            </div>
-            
-            <div class="biome-card" data-biome="Rainforest">
-                <div class="biome-icon">🦜</div>
-                <div class="biome-name">Tropical Rainforest</div>
-                <div class="biome-description">Navigate the dense canopy layers where biodiversity reaches its peak in steamy jungles.</div>
-            </div>
-            
-            <div class="biome-card" data-biome="Kelp Forest">
-                <div class="biome-icon">🌿</div>
-                <div class="biome-name">Kelp Forest</div>
-                <div class="biome-description">Swim through underwater forests where giant kelp creates cathedral-like environments.</div>
-            </div>
-            
-            <div class="biome-card" data-biome="Mangrove">
-                <div class="biome-icon">🦀</div>
-                <div class="biome-name">Mangrove Ecosystem</div>
-                <div class="biome-description">Explore the intricate root systems where saltwater meets fresh in coastal nurseries.</div>
-            </div>
-            
-            <div class="biome-card" data-biome="Frozen Ocean">
-                <div class="biome-icon">🐻‍❄️</div>
-                <div class="biome-name">Frozen Ocean</div>
-                <div class="biome-description">Navigate icy waters where marine mammals and Arctic specialists reign supreme.</div>
-            </div>
-            
-            <div class="biome-card" data-biome="Tundra">
-                <div class="biome-icon">🦌</div>
-                <div class="biome-name">Arctic Tundra</div>
-                <div class="biome-description">Cross the vast frozen plains where permafrost shapes a unique ecosystem of hardy survivors.</div>
-            </div>
-            
-            <div class="biome-card" data-biome="Jungle">
-                <div class="biome-icon">🐅</div>
-                <div class="biome-name">Dense Jungle</div>
-                <div class="biome-description">Push through thick vegetation where predators and prey engage in an ancient dance of survival.</div>
-            </div>
-            
-            <div class="biome-card" data-biome="River">
-                <div class="biome-icon">🐟</div>
-                <div class="biome-name">Flowing Rivers</div>
-                <div class="biome-description">Follow the currents where freshwater species thrive in rushing streams and calm pools.</div>
-            </div>
-            
-            <div class="biome-card" data-biome="Lake">
-                <div class="biome-icon">🦆</div>
-                <div class="biome-name">Serene Lakes</div>
-                <div class="biome-description">Discover the calm waters where aquatic and semi-aquatic creatures find peaceful sanctuary.</div>
-            </div>
+                <div class="biome-icon">
+                    <img src="https://i.postimg.cc/FHhybxfx/urban.png" alt="Urban Environment Placeholder">
+                </div>
+                <div class="biome-name">Urban Environment</div>
+                <div class="biome-description">Explore bustling cities and neighborhoods where adaptable animals thrive alongside humans in concrete jungles.</div>
+            </div>
+            
+            <div class="biome-card" data-biome="Ocean">
+                <div class="biome-icon">
+                    <img src="https://i.postimg.cc/L6jdgmf1/ocean.png" alt="Open Ocean Placeholder">
+                </div>
+                <div class="biome-name">Open Ocean</div>
+                <div class="biome-description">Dive into the vast blue expanse to discover the wonders of marine life in their endless aquatic domain.</div>
+            </div>
+            
+            <div class="biome-card" data-biome="Deep Sea">
+                <div class="biome-icon">
+                    <img src="https://i.postimg.cc/1X6dFKgQ/ocean-depths.png" alt="Deep Sea Abyss Placeholder">
+                </div>
+                <div class="biome-name">Deep Sea Abyss</div>
+                <div class="biome-description">Descend into the mysterious depths where bioluminescent creatures thrive in eternal darkness and crushing pressure.</div>
+            </div>
+            
+            <div class="biome-card" data-biome="Desert">
+                <div class="biome-icon">
+                    <img src="https://i.postimg.cc/zBxS3HDk/desert.png" alt="Desert Sands Placeholder">
+                </div>
+                <div class="biome-name">Desert Sands</div>
+                <div class="biome-description">Traverse harsh desert landscapes where only the most resilient creatures have mastered survival in extreme heat.</div>
+            </div>
+            
+            <div class="biome-card" data-biome="Swamp">
+                <div class="biome-icon">
+                    <img src="https://i.postimg.cc/R0QT5bjy/swamp.png" alt="Mysterious Swamps Placeholder">
+                </div>
+                <div class="biome-name">Mysterious Swamps</div>
+                <div class="biome-description">Wade through murky wetlands where amphibians and reptiles rule the waterlogged domain of shadows and mist.</div>
+            </div>
+            
+            <div class="biome-card" data-biome="Savanna">
+                <div class="biome-icon">
+                    <img src="https://i.postimg.cc/PxXQtQHx/savanna.png" alt="African Savanna Placeholder">
+                </div>
+                <div class="biome-name">African Savanna</div>
+                <div class="biome-description">Roam the endless grasslands where majestic herds migrate and apex predators stalk their prey.</div>
+            </div>
+            
+            <div class="biome-card" data-biome="Taiga">
+                <div class="biome-icon">
+                    <img src="https://i.postimg.cc/D0mQGf83/taiga.png" alt="Boreal Forest Placeholder">
+                </div>
+                <div class="biome-name">Boreal Forest</div>
+                <div class="biome-description">Trek through northern coniferous forests where hardy creatures endure long, bitter winters among evergreens.</div>
+            </div>
+            
+            <div class="biome-card" data-biome="Mountain">
+                <div class="biome-icon">
+                    <img src="https://i.postimg.cc/xdRLFNmS/mountain.png" alt="Mountain Peaks Placeholder">
+                </div>
+                <div class="biome-name">Mountain Peaks</div>
+                <div class="biome-description">Ascend towering heights where only the most adapted creatures can survive in the thin air and rocky terrain.</div>
+            </div>
+            
+            <div class="biome-card" data-biome="Coastal">
+                <div class="biome-icon">
+                    <img src="https://i.postimg.cc/wv4L9KFf/coastal.png" alt="Coastal Shores Placeholder">
+                </div>
+                <div class="biome-name">Coastal Shores</div>
+                <div class="biome-description">Explore the dynamic boundary where land meets sea, home to creatures thriving in both aquatic and terrestrial worlds.</div>
+            </div>
+            
+            <div class="biome-card" data-biome="Volcanic">
+                <div class="biome-icon">
+                    <img src="https://i.postimg.cc/KjKLz9HZ/volcanic.png" alt="Volcanic Regions Placeholder">
+                </div>
+                <div class="biome-name">Volcanic Regions</div>
+                <div class="biome-description">Venture into areas of extreme heat and geological activity where life finds extraordinary ways to flourish.</div>
+            </div>
+            
+            <div class="biome-card" data-biome="Polar">
+                <div class="biome-icon">
+                    <img src="https://i.postimg.cc/nLzqgcGj/polar.png" alt="Polar Ice Placeholder">
+                </div>
+                <div class="biome-name">Polar Ice</div>
+                <div class="biome-description">Journey to Earth's frozen extremes where specialized creatures have mastered survival in perpetual cold and ice.</div>
+            </div>
+            
+            <div class="biome-card" data-biome="Coral Reef">
+                <div class="biome-icon">
+                    <img src="https://i.postimg.cc/05JFh9VB/coral-reef.png" alt="Coral Reef Placeholder">
+                </div>
+                <div class="biome-name">Coral Reef</div>
+                <div class="biome-description">Dive into vibrant underwater cities where colorful marine life creates living masterpieces of biodiversity.</div>
+            </div>
+            
+            <div class="biome-card" data-biome="Rainforest">
+                <div class="biome-icon">
+                    <img src="https://i.postimg.cc/sDdqrb8D/rainforest.png" alt="Tropical Rainforest Placeholder">
+                </div>
+                <div class="biome-name">Tropical Rainforest</div>
+                <div class="biome-description">Navigate dense canopy layers where biodiversity reaches its peak in steamy, life-abundant jungles.</div>
+            </div>
+            
+            <div class="biome-card" data-biome="Kelp Forest">
+                <div class="biome-icon">
+                    <img src="https://i.postimg.cc/ZqMsDQpm/kelp-forest.png" alt="Kelp Forest Placeholder">
+                </div>
+                <div class="biome-name">Kelp Forest</div>
+                <div class="biome-description">Swim through underwater forests where giant kelp creates cathedral-like environments teeming with marine life.</div>
+            </div>
+            
+            <div class="biome-card" data-biome="Mangrove">
+                <div class="biome-icon">
+                    <img src="https://i.postimg.cc/V6tgZkz9/mangrove.png" alt="Mangrove Ecosystem Placeholder">
+                </div>
+                <div class="biome-name">Mangrove Ecosystem</div>
+                <div class="biome-description">Explore intricate root systems where saltwater meets fresh in coastal nurseries vital for marine reproduction.</div>
+            </div>
+            
+            <div class="biome-card" data-biome="Frozen Ocean">
+                <div class="biome-icon">
+                    <img src="https://i.postimg.cc/gjqDdtXn/polar-ocean.png" alt="Arctic Ocean Placeholder">
+                </div>
+                <div class="biome-name">Arctic Ocean</div>
+                <div class="biome-description">Navigate icy waters where marine mammals and Arctic specialists reign supreme beneath floating ice sheets.</div>
+            </div>
+            
+            <div class="biome-card" data-biome="Tundra">
+                <div class="biome-icon">
+                    <img src="https://i.postimg.cc/j2XzBWmf/tundra.png" alt="Arctic Tundra Placeholder">
+                </div>
+                <div class="biome-name">Arctic Tundra</div>
+                <div class="biome-description">Cross vast frozen plains where permafrost shapes a unique ecosystem of hardy survivors and migratory herds.</div>
+            </div>
+            
+            <div class="biome-card" data-biome="Jungle">
+                <div class="biome-icon">
+                    <img src="https://i.postimg.cc/HW44rKnL/jungle.png" alt="Dense Jungle Placeholder">
+                </div>
+                <div class="biome-name">Dense Jungle</div>
+                <div class="biome-description">Push through thick vegetation where predators and prey engage in an ancient dance of survival and stealth.</div>
+            </div>
+            
+            <div class="biome-card" data-biome="River">
+                <div class="biome-icon">
+                    <img src="https://i.postimg.cc/0NTdS17z/River.png" alt="Flowing Rivers Placeholder">
+                </div>
+                <div class="biome-name">Flowing Rivers</div>
+                <div class="biome-description">Follow swift currents where freshwater species thrive in rushing streams, calm pools, and meandering waterways.</div>
+            </div>
+            
+            <div class="biome-card" data-biome="Lake">
+                <div class="biome-icon">
+                    <img src="https://i.postimg.cc/br8x60C8/Lake.png" alt="Serene Lakes Placeholder">
+                </div>
+                <div class="biome-name">Serene Lakes</div>
+                <div class="biome-description">Discover calm waters where aquatic and semi-aquatic creatures find peaceful sanctuary in pristine freshwater habitats.</div>
+            </div>
+
+            <div class="biome-card" data-biome="Cave">
+                <div class="biome-icon">
+                    <img src="https://i.postimg.cc/yY4XxKst/cave.png" alt="Underground Caves Placeholder">
+                </div>
+                <div class="biome-name">Underground Caves</div>
+                <div class="biome-description">Explore dark caverns where blind creatures navigate by sound and specialized animals thrive without sunlight.</div>
+            </div>
         </div>
 
         <div class="encounter-section" id="encounter-section">
             <div class="encounter-header">
                 <div class="current-biome" id="current-biome"></div>
-                <p>Search for wildlife in this biome</p>
+                <p class="encounter-subtitle">Search for wildlife in this biome</p>
             </div>
             
             <div class="encounter-controls">
@@ -162,7 +213,7 @@
             </div>
             
             <div class="animal-encounter" id="animal-encounter">
-                <img class="animal-sprite" id="animal-sprite" alt="Animal">
+                <img class="animal-sprite" id="animal-sprite" alt="Animal" loading="lazy">
                 <div class="animal-info">
                     <div class="animal-name" id="animal-name"></div>
                     <div class="animal-scientific" id="animal-scientific"></div>
@@ -175,28 +226,28 @@
                             <div class="stat-bar-container">
                                 <div class="stat-bar-fill" id="attack-bar" style="background: linear-gradient(90deg, #ff6b6b, #ee5a24);"></div>
                             </div>
-                            <div id="attack-value">0</div>
+                            <div class="stat-value" id="attack-value">0</div>
                         </div>
                         <div class="stat-block">
                             <div class="stat-label">Defense</div>
                             <div class="stat-bar-container">
                                 <div class="stat-bar-fill" id="defense-bar" style="background: linear-gradient(90deg, #74b9ff, #0984e3);"></div>
                             </div>
-                            <div id="defense-value">0</div>
+                            <div class="stat-value" id="defense-value">0</div>
                         </div>
                         <div class="stat-block">
                             <div class="stat-label">Health</div>
                             <div class="stat-bar-container">
                                 <div class="stat-bar-fill" id="health-bar" style="background: linear-gradient(90deg, #2ecc71, #00b894);"></div>
                             </div>
-                            <div id="health-value">0</div>
+                            <div class="stat-value" id="health-value">0</div>
                         </div>
                         <div class="stat-block">
                             <div class="stat-label">Speed</div>
                             <div class="stat-bar-container">
                                 <div class="stat-bar-fill" id="speed-bar" style="background: linear-gradient(90deg, #ffd700, #f39c12);"></div>
                             </div>
-                            <div id="speed-value">0</div>
+                            <div class="stat-value" id="speed-value">0</div>
                         </div>
                     </div>
                     
@@ -214,14 +265,14 @@
             </div>
             
             <div class="no-encounter" id="no-encounter">
-                <p>🔍 No animals spotted this time... Try exploring again!</p>
+                <p>🔍 No animals spotted this time... The wilderness keeps its secrets. Try exploring again!</p>
             </div>
         </div>
 
         <div class="exploration-log">
             <div class="log-title">📋 Exploration Log</div>
             <div class="log-entries" id="log-entries">
-                <div class="log-entry">Welcome to Biome Explorer! Choose a biome to begin your adventure.</div>
+                <div class="log-entry">🌟 Welcome to Biome Explorer! Choose a biome to begin your wildlife adventure and discover the amazing creatures that inhabit our planet.</div>
             </div>
         </div>
     </div>
