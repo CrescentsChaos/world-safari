@@ -76,7 +76,8 @@ const rarityColors = {
     'Uncommon': { bg: '#2ecc71', border: '#27ae60' },
     'Rare': { bg: '#3498db', border: '#2980b9' },
     'Epic': { bg: '#9b59b6', border: '#8e44ad' },
-    'Legendary': { bg: '#f1c40f', border: '#f39c12' }
+    'Legendary': { bg: '#f1c40f', border: '#f39c12' },
+    'Mythical': { bg: '#f90078', border: '#f90078' }
 };
 
 // DOM elements

@@ -338,7 +338,10 @@ body {
     border-color: #f1c40f; 
     box-shadow: 0 0 20px rgba(241, 196, 15, 0.3);
 }
-
+.rarity-mythical { 
+    border-color: #f90078; 
+    box-shadow: 0 0 20px rgba(241, 15, 207, 0.3);
+}
 .animal-sprite {
     width: min(400px, 90%);
     height: auto;
