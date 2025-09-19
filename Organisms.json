@@ -6563,7 +6563,7 @@
     {
       "name": "African Cheetah",
       "scientific_name": "Acinonyx jubatus",
-      "habitat": "Savannah",
+      "habitat": "Savanna",
       "drops": "Fur",
       "attack": 95,
       "defense": 60,
@@ -6579,7 +6579,7 @@
     {
       "name": "Aardwolf",
       "scientific_name": "Proteles cristata",
-      "habitat": "Savannah, Grassland",
+      "habitat": "Savanna",
       "drops": "Fur",
       "attack": 50,
       "defense": 40,
@@ -6595,7 +6595,7 @@
     {
       "name": "African Golden Cat",
       "scientific_name": "Caracal aurata",
-      "habitat": "Forest, Savannah",
+      "habitat": "Jungle, Savanna",
       "drops": "Fur",
       "attack": 80,
       "defense": 60,
@@ -6611,7 +6611,7 @@
     {
       "name": "African Lion",
       "scientific_name": "Panthera leo",
-      "habitat": "Savannah, Grassland",
+      "habitat": "Savanna",
       "drops": "Fur",
       "attack": 110,
       "defense": 90,
@@ -6627,7 +6627,7 @@
     {
       "name": "American Bison",
       "scientific_name": "Bison bison",
-      "habitat": "Grassland, Plains",
+      "habitat": "Taiga",
       "drops": "Fur",
       "attack": 80,
       "defense": 100,
@@ -6643,7 +6643,7 @@
     {
       "name": "American Black Bear",
       "scientific_name": "Ursus americanus",
-      "habitat": "Forest, River, Mountain",
+      "habitat": "Jungle, River, Mountain",
       "drops": "Fillet",
       "attack": 100,
       "defense": 80,
@@ -6659,7 +6659,7 @@
     {
       "name": "Longnose Velvet Dogfish",
       "scientific_name": "Centroscyllium fabricii",
-      "habitat": "Deep Sea, Open Ocean",
+      "habitat": "Deep Sea,Ocean",
       "drops": "Fillet",
       "attack": 60,
       "defense": 50,
@@ -6675,7 +6675,7 @@
     {
       "name": "Silver Chimaera",
       "scientific_name": "Chimaera phantasma",
-      "habitat": "Deep Sea, Open Ocean",
+      "habitat": "Deep Sea, Ocean",
       "drops": "Fillet",
       "attack": 70,
       "defense": 55,
@@ -6691,7 +6691,7 @@
     {
       "name": "Tropical Sawshark",
       "scientific_name": "Pristiophorus delicatus",
-      "habitat": "Coastal, Reef",
+      "habitat": "Coastal, Coral Reef",
       "drops": "Fillet",
       "attack": 80,
       "defense": 60,
@@ -6707,7 +6707,7 @@
     {
       "name": "Whalesucker",
       "scientific_name": "Remora remora",
-      "habitat": "Open Ocean, Coastal",
+      "habitat": "Ocean, Coastal",
       "drops": "Fillet",
       "attack": 50,
       "defense": 40,
@@ -6739,7 +6739,7 @@
     {
       "name": "Giant Oceanic Manta Ray",
       "scientific_name": "Mobula birostris",
-      "habitat": "Open Ocean, Coastal",
+      "habitat": "Ocean, Coastal",
       "drops": "Fillet",
       "attack": 120,
       "defense": 90,
@@ -6787,7 +6787,7 @@
     {
       "name": "Ocean Sunfish",
       "scientific_name": "Mola mola",
-      "habitat": "Open Ocean",
+      "habitat": "Ocean",
       "drops": "Fillet",
       "attack": 130,
       "defense": 100,
@@ -6835,7 +6835,7 @@
     {
       "name": "Highland Copperhead",
       "scientific_name": "Austrelaps ramsayi",
-      "habitat": "Mountain, Forest",
+      "habitat": "Mountain,Jungle",
       "drops": "Fang",
       "attack": 70,
       "defense": 50,
@@ -6851,7 +6851,7 @@
     {
       "name": "Togian Babirusa",
       "scientific_name": "Babyrousa togeanensis",
-      "habitat": "Forest, Swamp",
+      "habitat": "Jungle, Swamp",
       "drops": "Tusk",
       "attack": 80,
       "defense": 70,
@@ -6867,7 +6867,7 @@
     {
       "name": "African Wild Dog",
       "scientific_name": "Lycaon pictus",
-      "habitat": "Savannah, Grassland",
+      "habitat": "Savanna",
       "drops": "Teeth",
       "attack": 90,
       "defense": 60,
@@ -6883,7 +6883,7 @@
     {
       "name": "Dingo",
       "scientific_name": "Canis lupus dingo",
-      "habitat": "Desert, Savannah, Grassland",
+      "habitat": "Desert, Savanna",
       "drops": "Teeth",
       "attack": 75,
       "defense": 55,
@@ -6899,7 +6899,7 @@
     {
       "name": "Tasmanian Devil",
       "scientific_name": "Sarcophilus harrisii",
-      "habitat": "Forest, Grassland",
+      "habitat": "Jungle",
       "drops": "Teeth",
       "attack": 80,
       "defense": 65,
