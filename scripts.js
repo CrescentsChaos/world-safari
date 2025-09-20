@@ -91,14 +91,10 @@ const noEncounter = document.getElementById('no-encounter');
 const logEntries = document.getElementById('log-entries');
 const animalSprite = document.getElementById('animal-sprite');
 
-// Stats elements
-const explorationsEl = document.getElementById('explorations');
-const encountersEl = document.getElementById('encounters');
-const speciesFoundEl = document.getElementById('species-found');
-
 // Initialize game
 async function initGame() {
     await loadAnimalData();
+    initUI(); // Initialize UI state after data loads
     
     // Add event listeners
     biomesContainer.addEventListener('click', handleBiomeClick);
@@ -106,6 +102,13 @@ async function initGame() {
     backBtn.addEventListener('click', returnToBiomes);
     
     updateStats();
+}
+
+// New function to handle initial UI state
+function initUI() {
+    biomesContainer.style.display = 'grid'; // Make sure this is always visible at the start
+    encounterSection.style.display = 'none'; // And this is always hidden
+    addLogEntry('🌟 Welcome to Biome Explorer! Choose a biome to begin your adventure!');
 }
 
 function handleBiomeClick(e) {
@@ -118,13 +121,13 @@ function handleBiomeClick(e) {
 
 function enterBiome(biome) {
     gameData.currentBiome = biome;
-    currentBiomeEl.textContent = `${biome} Exploration`;
+    currentBiomeEl.textContent = ` ${biome} Exploration`;
     
     biomesContainer.style.display = 'none';
     encounterSection.style.display = 'block';
     
     hideEncounterResult();
-    addLogEntry(`噫 Entered ${biome} biome. Ready to explore!`);
+    addLogEntry(` Entered ${biome} biome. Ready to explore!`);
 }
 
 function exploreCurrentBiome() {
@@ -152,7 +155,7 @@ function exploreCurrentBiome() {
     
     if (biomeAnimals.length === 0) {
         showNoEncounter();
-        addLogEntry(`剥 Searched ${gameData.currentBiome} but found no wildlife this time. (No animals in database for this biome)`);
+        addLogEntry(` Searched ${gameData.currentBiome} but found no wildlife this time. (No animals in database for this biome)`);
         updateStats();
         // Re-enable the button since nothing is loading
         exploreBtn.disabled = false;
@@ -167,10 +170,10 @@ function exploreCurrentBiome() {
         showAnimalEncounter(selectedAnimal);
         gameData.encounters++;
         gameData.speciesFound.add(selectedAnimal.name);
-        addLogEntry(`脂 Found ${selectedAnimal.name} (${selectedAnimal.rarity}) in ${gameData.currentBiome}!`);
+        addLogEntry(` Found ${selectedAnimal.name} (${selectedAnimal.rarity}) in ${gameData.currentBiome}!`);
     } else {
         showNoEncounter();
-        addLogEntry(`剥 Searched ${gameData.currentBiome} but the animals were too elusive.`);
+        addLogEntry(` Searched ${gameData.currentBiome} but the animals were too elusive.`);
         // Re-enable the button since nothing is loading
         exploreBtn.disabled = false;
         exploreBtn.textContent = '🔍 Explore Area';
@@ -288,7 +291,7 @@ function returnToBiomes() {
     gameData.currentBiome = null;
     biomesContainer.style.display = 'grid';
     encounterSection.style.display = 'none';
-    addLogEntry(`匠 Returned to base camp. Ready for next expedition!`);
+    addLogEntry(` Returned to base camp. Ready for next expedition!`);
 }
 
 function updateStats() {

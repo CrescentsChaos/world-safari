@@ -35,6 +35,7 @@ body {
     overflow-x: hidden;
     position: relative;
 }
+
 /* Animated background */
 body::before {
     content: '';
@@ -57,11 +58,16 @@ body::before {
     50% { transform: translateX(10px) translateY(5px) scale(0.98); }
     75% { transform: translateX(-3px) translateY(8px) scale(1.01); }
 }
+
 .game-container {
     max-width: 1600px;
     margin: 0 auto;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 .header {
     text-align: center;
@@ -95,7 +101,6 @@ body::before {
     animation: titleGlow 4s ease-in-out infinite alternate;
 }
 
-
 @keyframes titleGlow {
     0% { filter: brightness(1) drop-shadow(0 0 20px rgba(0, 212, 255, 0.3)); }
     100% { filter: brightness(1.2) drop-shadow(0 0 40px rgba(124, 58, 237, 0.4)); }
@@ -107,17 +112,18 @@ body::before {
     font-weight: 400;
     margin-bottom: 2rem;
 }
+
 .stats-bar {
     display: flex;
     justify-content: center;
     gap: clamp(16px, 4vw, 32px);
-    background: var(--glass-bg);
-    backdrop-filter: blur(20px);
+    background: var(--surface-glass);
+    backdrop-filter: var(--blur-glass);
     padding: clamp(16px, 4vw, 24px);
-    border-radius: var(--border-radius);
-    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--border-subtle);
     margin-bottom: clamp(24px, 6vw, 40px);
-    box-shadow: var(--shadow-md);
+    box-shadow: var(--shadow-soft);
     flex-wrap: wrap;
 }
 
@@ -143,12 +149,15 @@ body::before {
     font-weight: 500;
 }
 
-
-.biome-container {
-    position: fixed;
-    top: 2rem;
-    right: 2rem;
-    z-index: 1000;
+/* Updated biomes container */
+.biomes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 32px;
+    padding: 0 2rem;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 4rem;
 }
 
 .biome-card {
@@ -185,9 +194,9 @@ body::before {
 
 .biome-card:hover {
     transform: translateY(-6px) scale(1.02);
-    box-shadow: var(--shadow-lg);
-    border-color: var(--text-accent);
-    background: rgba(255, 255, 255, 0.18);
+    box-shadow: var(--shadow-hard);
+    border-color: var(--border-bright);
+    background: var(--surface-glass-hover);
 }
 
 .biome-card:active {
@@ -197,12 +206,17 @@ body::before {
 .biome-icon {
     padding: 2rem;
     position: relative;
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .biome-icon img {
     width: 100%;
-    height: 240px;
-    object-fit: cover;
+    max-height: 240px;
+    object-fit: contain;
     transition: var(--transition);
 }
 
@@ -231,10 +245,10 @@ body::before {
     justify-content: center;
     position: relative;
     z-index: 2;
+    padding: 0 1.5rem 1.5rem;
 }
 
 .encounter-section {
-    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -245,11 +259,12 @@ body::before {
     z-index: 2000;
     overflow-y: auto;
     animation: fadeIn 0.6s ease;
-    display: flex; /* Change to flexbox for better alignment */
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Center the content vertically */
+    justify-content: center;
     padding: 2rem;
+    text-align: center; /* Center all text inside */
 }
 
 @keyframes fadeIn {
@@ -258,8 +273,8 @@ body::before {
 }
 
 .biome-image-container {
-    width: 200px; /* Adjust size as needed */
-    height: 200px; /* Adjust size as needed */
+    width: 200px;
+    height: 200px;
     border-radius: var(--radius-lg);
     overflow: hidden;
     margin-bottom: 2rem;
@@ -281,19 +296,19 @@ body::before {
 
 .encounter-header {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem; /* Reduced for mobile */
 }
 
 .current-biome {
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 5vw, 2rem); /* Responsive font size */
     color: var(--accent-primary);
     margin-bottom: 0.5rem;
 }
 
 .encounter-subtitle {
     color: var(--text-secondary);
-    font-size: 1.1rem;
+    font-size: clamp(1rem, 3vw, 1.1rem); /* Responsive font size */
 }
 
 .encounter-controls {
@@ -302,6 +317,8 @@ body::before {
     gap: 16px;
     margin-bottom: 32px;
     flex-wrap: wrap;
+    flex-direction: column; /* Force buttons to stack on mobile */
+    align-items: center;
 }
 
 .btn {
@@ -316,9 +333,11 @@ body::before {
     transition: var(--transition);
     position: relative;
     overflow: hidden;
-    margin: 2rem auto;
+    margin: 1rem auto; /* Adjusted margin */
     display: block;
     box-shadow: var(--shadow-soft);
+    width: 100%;
+    max-width: 280px;
 }
 
 .btn::before {
@@ -346,23 +365,24 @@ body::before {
 }
 
 .btn-explore {
-    background: var(--secondary-gradient);
+    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
 }
 
 .btn-back {
-    background: var(--accent-gradient);
+    background: linear-gradient(135deg, var(--accent-secondary), var(--accent-tertiary));
 }
 
 .animal-encounter {
     display: none;
     text-align: center;
-    background: var(--glass-bg);
-    border-radius: var(--border-radius);
+    background: var(--surface-glass);
+    backdrop-filter: var(--blur-glass);
+    border-radius: var(--radius-xl);
     padding: clamp(20px, 5vw, 32px);
     margin-top: 24px;
     border: 2px solid;
     animation: encounterAppear 1s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: var(--shadow-md);
+    box-shadow: var(--shadow-hard);
 }
 
 @keyframes encounterAppear {
@@ -414,7 +434,10 @@ body::before {
 
 
 .animal-sprite {
-    object-fit: cover;
+    object-fit: contain;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
     border-radius: var(--radius-lg);
     margin-bottom: 2rem;
     box-shadow: var(--shadow-soft);
@@ -448,10 +471,10 @@ body::before {
     text-transform: uppercase;
     font-size: clamp(0.75rem, 2vw, 0.85rem);
     letter-spacing: 1px;
-    background: var(--glass-bg);
-    border: 1px solid var(--glass-border);
+    background: var(--surface-glass);
+    border: 1px solid var(--border-subtle);
     backdrop-filter: blur(10px);
-    box-shadow: var(--shadow-sm);
+    box-shadow: var(--shadow-soft);
 }
 
 .animal-description {
@@ -466,14 +489,14 @@ body::before {
 
 .animal-stats {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjusted min-width for mobile */
+    gap: 1rem;
     margin: 2rem 0;
 }
 
 .stat-block {
     background: var(--surface-glass);
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: var(--radius-md);
     border: 1px solid var(--border-subtle);
     text-align: center;
@@ -531,21 +554,21 @@ body::before {
 }
 
 .abilities-moves {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+    display: flex;
+    flex-direction: column; /* Force columns to stack */
+    gap: 16px;
     margin-top: 24px;
 }
 
 .ability-section, .moves-section {
-    background: var(--glass-bg);
-    padding: 20px;
-    border-radius: 12px;
-    border: 1px solid var(--glass-border);
+    background: var(--surface-glass);
+    padding: 16px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-subtle);
 }
 
 .section-title {
-    color: var(--text-accent);
+    color: var(--accent-primary);
     font-weight: 700;
     margin-bottom: 12px;
     font-size: clamp(1rem, 3vw, 1.2rem);
@@ -555,29 +578,32 @@ body::before {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+    justify-content: center;
 }
 
 .move-tag {
-    background: var(--primary-gradient);
+    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
     color: var(--text-primary);
     padding: 6px 12px;
     border-radius: 20px;
     font-size: clamp(0.75rem, 2vw, 0.85rem);
     font-weight: 500;
     border: 1px solid rgba(255, 255, 255, 0.2);
+    flex-grow: 1; /* Allow tags to grow to fill space */
 }
 
 .exploration-log {
     margin-top: 32px;
-    background: var(--glass-bg);
-    border-radius: var(--border-radius);
+    background: var(--surface-glass);
+    border-radius: var(--radius-xl);
     padding: clamp(16px, 4vw, 24px);
-    border: 1px solid var(--glass-border);
+    border: 1px solid var(--border-subtle);
     backdrop-filter: blur(15px);
+    box-shadow: var(--shadow-soft);
 }
 
 .log-title {
-    color: var(--text-accent);
+    color: var(--accent-primary);
     font-size: clamp(1.1rem, 3vw, 1.4rem);
     margin-bottom: 16px;
     text-align: center;
@@ -612,7 +638,7 @@ body::before {
 .log-entry {
     margin-bottom: 8px;
     padding: 12px;
-    background: var(--glass-bg);
+    background: var(--surface-glass-hover);
     border-radius: 8px;
     font-size: clamp(0.85rem, 2.5vw, 0.9rem);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -639,7 +665,7 @@ body::before {
     height: 20px;
     border: 3px solid rgba(255,255,255,.3);
     border-radius: 50%;
-    border-top-color: var(--text-accent);
+    border-top-color: var(--accent-primary);
     animation: spin 1s ease-in-out infinite;
     margin-right: 8px;
 }
@@ -661,6 +687,7 @@ body::before {
         align-items: center;
         gap: 12px;
         min-width: auto;
+        justify-content: center;
     }
 
     .encounter-controls {
@@ -734,8 +761,8 @@ body::before {
 /* High contrast mode support */
 @media (prefers-contrast: high) {
     :root {
-        --glass-bg: rgba(0, 0, 0, 0.8);
-        --glass-border: rgba(255, 255, 255, 0.5);
+        --surface-glass: rgba(0, 0, 0, 0.8);
+        --border-subtle: rgba(255, 255, 255, 0.5);
     }
 }
 
