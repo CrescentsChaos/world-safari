@@ -89,6 +89,7 @@ const backBtn = document.getElementById('back-btn');
 const animalEncounter = document.getElementById('animal-encounter');
 const noEncounter = document.getElementById('no-encounter');
 const logEntries = document.getElementById('log-entries');
+const animalSprite = document.getElementById('animal-sprite');
 
 // Stats elements
 const explorationsEl = document.getElementById('explorations');
@@ -117,17 +118,21 @@ function handleBiomeClick(e) {
 
 function enterBiome(biome) {
     gameData.currentBiome = biome;
-    currentBiomeEl.textContent = `🌍 ${biome} Exploration`;
+    currentBiomeEl.textContent = `${biome} Exploration`;
     
     biomesContainer.style.display = 'none';
     encounterSection.style.display = 'block';
     
     hideEncounterResult();
-    addLogEntry(`🚀 Entered ${biome} biome. Ready to explore!`);
+    addLogEntry(`噫 Entered ${biome} biome. Ready to explore!`);
 }
 
 function exploreCurrentBiome() {
     if (!gameData.currentBiome || !animalData) return;
+    
+    // Disable the button to prevent rapid clicks
+    exploreBtn.disabled = true;
+    exploreBtn.textContent = 'Loading...';
     
     gameData.explorations++;
     
@@ -147,8 +152,11 @@ function exploreCurrentBiome() {
     
     if (biomeAnimals.length === 0) {
         showNoEncounter();
-        addLogEntry(`🔍 Searched ${gameData.currentBiome} but found no wildlife this time. (No animals in database for this biome)`);
+        addLogEntry(`剥 Searched ${gameData.currentBiome} but found no wildlife this time. (No animals in database for this biome)`);
         updateStats();
+        // Re-enable the button since nothing is loading
+        exploreBtn.disabled = false;
+        exploreBtn.textContent = '🔍 Explore Area';
         return;
     }
     
@@ -159,10 +167,13 @@ function exploreCurrentBiome() {
         showAnimalEncounter(selectedAnimal);
         gameData.encounters++;
         gameData.speciesFound.add(selectedAnimal.name);
-        addLogEntry(`🎉 Found ${selectedAnimal.name} (${selectedAnimal.rarity}) in ${gameData.currentBiome}!`);
+        addLogEntry(`脂 Found ${selectedAnimal.name} (${selectedAnimal.rarity}) in ${gameData.currentBiome}!`);
     } else {
         showNoEncounter();
-        addLogEntry(`🔍 Searched ${gameData.currentBiome} but the animals were too elusive.`);
+        addLogEntry(`剥 Searched ${gameData.currentBiome} but the animals were too elusive.`);
+        // Re-enable the button since nothing is loading
+        exploreBtn.disabled = false;
+        exploreBtn.textContent = '🔍 Explore Area';
     }
     
     updateStats();
@@ -191,24 +202,30 @@ function showAnimalEncounter(animal) {
     hideEncounterResult();
     
     // Handle sprite loading with smooth transition
-    const spriteImg = document.getElementById('animal-sprite');
-    spriteImg.style.opacity = '0';
+    animalSprite.style.opacity = '0';
     
-    // Create a new image to preload
+    // Create a new image to preload and listen for loading completion
     const newImg = new Image();
     newImg.onload = function() {
-        spriteImg.src = animal.sprite;
-        spriteImg.style.opacity = '1';
+        animalSprite.src = animal.sprite;
+        animalSprite.style.opacity = '1';
+        
+        // Re-enable the button once the new image is fully loaded
+        exploreBtn.disabled = false;
+        exploreBtn.textContent = '🔍 Explore Area';
     };
     newImg.onerror = function() {
         // Fallback if image fails to load
-        spriteImg.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9IiNmMGYwZjAiLz48dGV4dCB4PSI1MCIgeT0iNTUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OTk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+Tm8gSW1hZ2U8L3RleHQ+PC9zdmc+';
-        spriteImg.style.opacity = '1';
+        animalSprite.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9IiNmMGYwZjAiLz48dGV4dCB4PSI1MCIgeT0iNTUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OTk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+Tm8gSW1hZ2U8L3RleHQ+PC9zdmc+';
+        animalSprite.style.opacity = '1';
+
+        // Re-enable the button even if the image fails to load
+        exploreBtn.disabled = false;
+        exploreBtn.textContent = '🔍 Explore Area';
     };
     newImg.src = animal.sprite;
     
     // Set animal data
-    document.getElementById('animal-sprite').src = animal.sprite;
     document.getElementById('animal-name').textContent = animal.name;
     document.getElementById('animal-scientific').textContent = animal.scientific_name;
     document.getElementById('animal-description').textContent = animal.description;
@@ -222,7 +239,7 @@ function showAnimalEncounter(animal) {
     
     // Set border color for encounter box
     animalEncounter.className = `animal-encounter rarity-${animal.rarity.toLowerCase()}`;
-    document.getElementById('animal-sprite').style.borderColor = colors.border;
+    animalSprite.style.borderColor = colors.border;
     
     // Set stats with animation
     const maxStat = 100;
@@ -271,7 +288,7 @@ function returnToBiomes() {
     gameData.currentBiome = null;
     biomesContainer.style.display = 'grid';
     encounterSection.style.display = 'none';
-    addLogEntry(`🏠 Returned to base camp. Ready for next expedition!`);
+    addLogEntry(`匠 Returned to base camp. Ready for next expedition!`);
 }
 
 function updateStats() {
