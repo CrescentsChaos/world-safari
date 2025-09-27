@@ -2226,7 +2226,7 @@
     },
     {
       "name": "Australian Lungfish",
-      "scientific_name": "Australian Lungfish",
+      "scientific_name": "Neoceratodus forsteri",
       "habitat": "River, Lake",
       "drops": "Fillet",
       "attack": 45,
@@ -5324,7 +5324,7 @@
       "abilities": "Camouflage",
       "category": "Amphibian",
       "moves": "Tackle,Scratch,Bite,Peck",
-      "sprite": "https://i.postimg.cc/7L99Qk2Z/Pipa-pipa.png",
+      "sprite": "https://i.postimg.cc/PfpzsQnL/pipa_pipa.png",
       "rarity": "Rare",
       "description": "A flat, fully aquatic frog native to the rivers and wetlands of northern South America. Known for its unique reproductive strategy—females carry eggs embedded in their back—this toad ambushes insects and small fish while remaining hidden in muddy waters."
     },
@@ -6801,7 +6801,7 @@
       "description": "One of the largest bony fish, Ocean Sunfish inhabit open oceans worldwide. They feed on jellyfish and plankton and rely on size and thick skin for protection."
     },
     {
-      "name": "Brachymystax lenok",
+      "name": "Manchurian Trout",
       "scientific_name": "Brachymystax lenok",
       "habitat": "River, Lake",
       "drops": "Fillet",
