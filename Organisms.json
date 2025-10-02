@@ -14,7 +14,7 @@
       "moves": "Pounce,Scratch,Bite,Tail Whip",
       "sprite": "https://i.postimg.cc/kgZHx9N0/calico.png",
       "rarity": "Common",
-      "description": "A nimble and curious companion, the domestic cat uses its sharp senses to detect threats and hidden resources. Though small, it’s agile, stealthy, and fiercely protective when cornered."
+      "description": "A patchwork of orange, black, and white, calico cats are living canvases of feline beauty. They are often considered lucky and have playful, mischievous temperaments."
     },
     {
       "name": "Beagle Hound",
@@ -30,7 +30,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/brmHLB7f/beagle-hound.png",
       "rarity": "Uncommon",
-      "description": "A loyal and protective companion, the domestic dog excels at guarding and tracking with its keen senses. Strong and courageous, it thrives in a pack and will defend its allies without hesitation."
+      "description": "Small yet determined, the beagle’s nose is one of the sharpest in the canine world. They thrive in packs, following scents with endless enthusiasm and cheerful energy."
     },
     {
       "name": "Rhesus Monkey",
@@ -46,7 +46,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/jjrfFqCK/rhesus.png",
       "rarity": "Rare",
-      "description": "Highly social and clever, the rhesus monkey thrives in urban pockets where it scavenges and adapts to human presence. Agile and mischievous, it can overwhelm foes with teamwork and resourcefulness."
+      "description": "Intelligent and highly adaptable, rhesus monkeys often live close to human settlements. | They are social creatures, using a wide range of vocalizations and gestures to communicate."
     },
     {
       "name": "Tokay Gecko",
@@ -62,7 +62,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/Z5vgLHv2/tokey.png",
       "rarity": "Rare",
-      "description": "A brightly colored gecko known for its loud calls, the tokay lizard clings to walls and ceilings with ease. Fierce for its size, it defends itself with a powerful bite and startling agility."
+      "description": "Brightly spotted and famously loud, the tokay gecko’s call can echo through jungles at night. It is fiercely territorial, with a bite as memorable as its striking appearance."
     },
     {
       "name": "Jungle Cat",
@@ -78,7 +78,7 @@
       "moves": "Pounce,Scratch,Bite,Tail Whip",
       "sprite": "https://i.postimg.cc/T1GLttP9/jungle-cat.png",
       "rarity": "Rare",
-      "description": "A secretive wild feline that haunts the outskirts of cities, the jungle cat relies on stealth and speed to hunt. Its sharp senses and agility make it a formidable predator, even in urban fringes."
+      "description": "Tall-eared and tawny, the jungle cat prowls grasslands and wetlands across Asia. It hunts silently, favoring birds and rodents with quick, powerful strikes."
     },
     {
       "name": "Secretary Bird",
@@ -94,7 +94,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/W4tR7BxT/secretary-bird.png",
       "rarity": "Uncommon",
-      "description": "The secretary bird is a tall, long-legged bird of prey native to sub-Saharan Africa, known for hunting snakes on foot. Its striking appearance includes an eagle-like body atop crane-like legs, topped with long black crest feathers."
+      "description": "Standing tall with crane-like legs, this raptor is a ground hunter of snakes. Its dramatic crest and fierce stomping attacks make it unmistakable in the savanna."
     },
     {
       "name": "Bombay Cat",
@@ -110,7 +110,7 @@
       "moves": "Pounce,Scratch,Bite,Tail Whip",
       "sprite": "https://i.postimg.cc/tJSqFkn7/bombay.png",
       "rarity": "Uncommon",
-      "description": "A nimble and curious companion, the domestic cat uses its sharp senses to detect threats and hidden resources. Though small, it’s agile, stealthy, and fiercely protective when cornered."
+      "description": "With its sleek black coat and copper eyes, the Bombay resembles a miniature panther. It is affectionate and people-oriented, often following its humans like a shadow."
     },
     {
       "name": "Tabby Cat",
@@ -126,7 +126,7 @@
       "moves": "Pounce,Scratch,Bite,Tail Whip",
       "sprite": "https://i.postimg.cc/rmR3f9HK/tabby.png",
       "rarity": "Common",
-      "description": "A nimble and curious companion, the domestic cat uses its sharp senses to detect threats and hidden resources. Though small, it’s agile, stealthy, and fiercely protective when cornered."
+      "description": "Recognizable by its “M” forehead marking, the tabby is a timeless feline pattern.  From stripes to swirls, each tabby coat is a unique work of nature’s art."
     },
     {
       "name": "Tuxedo Cat",
@@ -142,7 +142,7 @@
       "moves": "Pounce,Scratch,Bite,Tail Whip",
       "sprite": "https://i.postimg.cc/8ztCG1zL/tuxedo.png",
       "rarity": "Common",
-      "description": "A nimble and curious companion, the domestic cat uses its sharp senses to detect threats and hidden resources. Though small, it’s agile, stealthy, and fiercely protective when cornered."
+      "description": "Clad in black and white, tuxedo cats look ready for a formal evening affair.  They’re known for their charm, bold personalities, and playful intelligence."
     },
     {
       "name": "Siamese Cat",
@@ -158,7 +158,7 @@
       "moves": "Pounce,Scratch,Bite,Tail Whip",
       "sprite": "https://i.postimg.cc/jjxM1Y8W/colorpoint.png",
       "rarity": "Common",
-      "description": "A nimble and curious companion, the domestic cat uses its sharp senses to detect threats and hidden resources. Though small, it’s agile, stealthy, and fiercely protective when cornered."
+      "description": "Striking blue eyes and pointed coats give Siamese cats a regal elegance.  They are famously talkative, bonding strongly with their human companions."
     },
     {
       "name": "Tortoiseshell Cat",
@@ -174,7 +174,7 @@
       "moves": "Pounce,Scratch,Bite,Tail Whip",
       "sprite": "https://i.postimg.cc/BbBgphx5/tortoiseshell.png",
       "rarity": "Common",
-      "description": "A nimble and curious companion, the domestic cat uses its sharp senses to detect threats and hidden resources. Though small, it’s agile, stealthy, and fiercely protective when cornered."
+      "description": "Mottled with fiery oranges and deep blacks, tortoiseshell cats are dramatic and vibrant.  Their “tortitude” personality is legendary—fiery, independent, and spirited."
     },
     {
       "name": "House Crow",
@@ -190,7 +190,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/K86MKPTm/house-crow.png",
       "rarity": "Common",
-      "description": "The house crow is a medium-sized, intelligent bird native to South Asia, easily recognized by its black and grey plumage. It thrives in urban areas, often scavenging near humans and adapting well to city life."
+      "description": "Adaptable and clever, house crows thrive alongside human settlements.  They are opportunistic feeders, notorious for their bold scavenging habits."
     },
     {
       "name": "Pariah Dog",
@@ -206,7 +206,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/FF6WPq5p/pariah-dog.png",
       "rarity": "Common",
-      "description": "A loyal and protective companion, the domestic dog excels at guarding and tracking with its keen senses. Strong and courageous, it thrives in a pack and will defend its allies without hesitation."
+      "description": "Lean and hardy, the pariah dog is the ancient free-ranging canine of South Asia. They are resourceful survivors, balancing independence with loyalty to people."
     },
     {
       "name": "Persian Cat",
@@ -222,7 +222,7 @@
       "moves": "Pounce,Scratch,Bite,Tail Whip",
       "sprite": "https://i.postimg.cc/XY1kJBj8/persian.png",
       "rarity": "Rare",
-      "description": "A nimble and curious companion, the domestic cat uses its sharp senses to detect threats and hidden resources. Though small, it’s agile, stealthy, and fiercely protective when cornered."
+      "description": "Long-haired and luxurious, Persian cats embody feline elegance and calm. Their flat faces and gentle nature make them treasured companions worldwide."
     },
     {
       "name": "Maine Coon Cat",
@@ -238,7 +238,7 @@
       "moves": "Pounce,Scratch,Bite,Tail Whip",
       "sprite": "https://i.postimg.cc/BnCQc2LT/maine-coon.png",
       "rarity": "Uncommon",
-      "description": "A nimble and curious companion, the domestic cat uses its sharp senses to detect threats and hidden resources. Though small, it’s agile, stealthy, and fiercely protective when cornered."
+      "description": "Massive and shaggy-coated, the Maine Coon is a gentle giant among cats. It’s playful, intelligent, and often enjoys water—rare for a feline."
     },
     {
       "name": "Asian Pied Starling",
@@ -254,7 +254,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/s1d7S5QF/asian-pied-starling.png",
       "rarity": "Common",
-      "description": "A medium-sized, black-and-white bird native to South and Southeast Asia, social and often found in flocks."
+      "description": "With bold black-and-white plumage, these starlings are loud and sociable. They thrive in flocks, filling the air with chatter near villages and fields."
     },
     {
       "name": "Asian Glossy Starling",
@@ -270,7 +270,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/R0y74rSV/asian-glossy-starling.png",
       "rarity": "Common",
-      "description": "A medium-sized, glossy black bird with iridescent feathers, native to Southeast Asia, social and often seen in flocks."
+      "description": "Shimmering green-black feathers and piercing red eyes define this striking bird. They gather in noisy groups, feeding on fruit and brightening city skies."
     },
     {
       "name": "Alligator Snapping Turtle",
@@ -286,7 +286,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/kXkvt1Bp/alligator-snapping-turtle.png",
       "rarity": "Rare",
-      "description": "A massive freshwater turtle with a prehistoric appearance, using its powerful jaws and camouflaged body to ambush prey."
+      "description": "Armored and prehistoric, this turtle lures fish with its worm-like tongue. Its crushing bite and massive jaws make it a formidable freshwater predator."
     },
     {
       "name": "Sidewinder",
@@ -302,7 +302,7 @@
       "moves": "Tackle,Scratch,Bite,Venomous Fang",
       "sprite": "https://i.postimg.cc/Hs7PK7MF/sidewinder.png",
       "rarity": "Uncommon",
-      "description": "A small desert rattlesnake known for its unique sideways movement across sand and potent venom."
+      "description": "Named for its unique sideways slither, the sidewinder glides over desert sand. Its horned head and heat-sensing pits make it a master desert hunter."
     },
     {
       "name": "Iberian Solifuge",
@@ -318,7 +318,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/fLp1t7Xj/camel-spider.png",
       "rarity": "Rare",
-      "description": "A fast, predatory arachnid found in Iberian deserts, known for its speed and powerful chelicerae."
+      "description": "A fast-moving arachnid, the Iberian solifuge hunts with powerful jaws instead of venom. Despite its fearsome look, it poses no real threat to humans."
     },
     {
       "name": "Black Heron",
@@ -334,7 +334,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/yYzrM8Td/black-heron.png",
       "rarity": "Uncommon",
-      "description": "A wading bird native to Africa, famous for using its wings like an umbrella to catch fish efficiently."
+      "description": "Famous for its “umbrella fishing,” it spreads its wings like a canopy to lure fish. Its dark plumage and stealthy hunting make it a striking wetland predator."
     },
     {
       "name": "Thorny Devil",
@@ -350,7 +350,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/CxnBbSW-G/thorny-devil.png",
       "rarity": "Rare",
-      "description": "A small Australian lizard covered in sharp spines, highly resilient and capable of absorbing water from its environment."
+      "description": "Covered in spiny armor, this desert lizard looks like a tiny dragon. It drinks by channeling water along grooves in its skin to its mouth."
     },
     {
       "name": "Mexican Plateau Horned Lizard",
@@ -366,7 +366,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/0y758QTB/horned-toed.png",
       "rarity": "Rare",
-      "description": "A small, heavily spined lizard native to Mexico’s plateau regions, using its armor-like body to survive predators."
+      "description": "This lizard’s crown of horns makes it look prehistoric and fierce. When threatened, it can squirt blood from its eyes as a defense."
     },
     {
       "name": "Giant Ground Pangolin",
@@ -382,7 +382,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/LsHS2VBJ/pangolin.png",
       "rarity": "Rare",
-      "description": "A large, nocturnal pangolin with tough scales, capable of curling into a protective ball when threatened."
+      "description": "With scales like armor, it digs up ants with powerful claws. It curls into a ball when threatened, becoming nearly impenetrable."
     },
     {
       "name": "Nile Crocodile",
@@ -398,7 +398,7 @@
       "moves": "Tackle,Scratch,Bite,Death Roll",
       "sprite": "https://i.postimg.cc/j5fYhkRk/nile-crocodile.png",
       "rarity": "Legendary",
-      "description": "One of the largest and most powerful crocodiles in the world, a top predator of African rivers with unmatched ambush strength."
+      "description": "One of the largest reptiles alive, it rules African rivers with ambush strikes. Revered and feared, it has a bite among the strongest in the animal kingdom."
     },
     {
       "name": "Red-shouldered Hawk",
@@ -414,7 +414,7 @@
       "moves": "Tackle,Scratch,Piercing Beak,Peck",
       "sprite": "https://i.postimg.cc/NFGb05C7/red-shouldered-hawk.png",
       "rarity": "Uncommon",
-      "description": "A medium-sized hawk native to North America, recognized by its reddish shoulders and piercing hunting calls."
+      "description": "With striking chestnut plumage, it soars above forests scanning for prey. Its piercing call and agility make it a fierce woodland raptor."
     },
     {
       "name": "Saltwater Crocodile",
@@ -446,7 +446,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/VNCtCJWd/water-buffalo.png",
       "rarity": "Rare",
-      "description": "A massive, endangered wild bovine native to South and Southeast Asia, powerful and aggressive when threatened."
+      "description": "Towering and horned, these massive bovines wade through swamps and rivers. They are ancestors of domestic buffalo, yet remain far more powerful and untamed."
     },
     {
       "name": "Alligator Gar",
@@ -462,7 +462,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/wB2PXcMP/alligator_gar.png",
       "rarity": "Epic",
-      "description": "A massive, prehistoric-looking fish with an alligator-like snout, found in North America’s rivers and lakes."
+      "description": "Armored scales and long jaws give it a prehistoric look. It is a living fossil, lurking in North American rivers for over 100 million years."
     },
     {
       "name": "Arapaima",
@@ -478,7 +478,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/pTdSqhnd/arapaima.png",
       "rarity": "Rare",
-      "description": "One of the largest freshwater fish in the world, the arapaima is a powerful Amazonian predator capable of breathing air."
+      "description": "A freshwater giant of the Amazon, growing longer than most humans. It gulps air at the surface, surviving in oxygen-poor waters."
     },
     {
       "name": "Nile Perch",
@@ -494,7 +494,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/FKWgMmTD/Nile-Perch.png",
       "rarity": "Rare",
-      "description": "A massive predatory freshwater fish from Africa, feared for its ferocity and appetite, capable of dominating its ecosystem."
+      "description": "A massive fish prized for its size and strength. Invasive in some lakes, it disrupts ecosystems by devouring native species."
     },
     {
       "name": "Giant Snakehead",
@@ -510,7 +510,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/sX5zWgMX/giant-snakehead.png",
       "rarity": "Uncommon",
-      "description": "An aggressive and territorial freshwater predator from Southeast Asia, feared for its power, stamina, and ability to breathe air and survive on land for short periods."
+      "description": "Aggressive and territorial, this fish is feared for its ferocity. It can breathe air and wriggle short distances across land."
     },
     {
       "name": "Giant Water Bug",
@@ -526,7 +526,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/4xzK8Z1p/giant-water-bug.png",
       "rarity": "Common",
-      "description": "A large aquatic insect known as “toe-biter,” it lurks underwater to ambush prey, injecting enzymes to liquefy insides for feeding."
+      "description": "Nicknamed “toe-biters,” their painful bite is unforgettable. Males carry eggs on their backs, guarding them until hatching."
     },
     {
       "name": "Cottonmouth",
@@ -542,7 +542,7 @@
       "moves": "Tackle,Scratch,Bite,Venomous Fang",
       "sprite": "https://i.postimg.cc/RZQF7dMR/northern-cottonmouth.png",
       "rarity": "Uncommon",
-      "description": "A semi-aquatic pit viper of the southeastern U.S., notorious for its white “cotton” mouth display and potent venom."
+      "description": "A venomous pit viper that opens its white mouth in warning. Semi-aquatic, it glides fearlessly through swamps and rivers."
     },
     {
       "name": "Black Jansen's Ratsnake",
@@ -558,7 +558,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/MZM1yCgm/black-jansens-ratsnake.png",
       "rarity": "Uncommon",
-      "description": "A non-venomous snake from Southeast Asia, sleek and agile, relying on stealth and constriction to subdue prey."
+      "description": "A sleek constrictor with jet-black scales and intense eyes. Non-venomous yet formidable, it hunts rodents and birds with speed."
     },
     {
       "name": "Nine-banded Armadillo",
@@ -574,7 +574,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/28dbGrGh/nine-banded-armadillo.png",
       "rarity": "Uncommon",
-      "description": "A small to medium-sized armored mammal native to the Americas, using its tough shell for protection and digging to evade threats."
+      "description": "Armored like a tank, it can roll into a tight ball. It is the only armadillo species found in the United States."
     },
     {
       "name": "Red Fox",
@@ -590,7 +590,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/k5D7vG4L/Red_Fox.png",
       "rarity": "Common",
-      "description": "A highly adaptable canid found across the Northern Hemisphere, known for its intelligence, stealth, and resourcefulness."
+      "description": "With fiery fur and cunning eyes, it thrives in wilds and cities alike. Known for its adaptability, it’s both trickster and survivor."
     },
     {
       "name": "Grizzly Bear",
@@ -606,7 +606,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/021w8NZK/grizzly-bear.png",
       "rarity": "Epic",
-      "description": "A massive North American bear, extremely strong and territorial, capable of overpowering most animals it encounters."
+      "description": "A massive omnivore with immense strength and iconic hump. Despite its power, it often feeds on berries and salmon."
     },
     {
       "name": "Star-nosed mole",
@@ -622,7 +622,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/43wFvM2s/star-nosed-mole.png",
       "rarity": "Uncommon",
-      "description": "A small North American mole with a unique star-shaped nose, highly sensitive and adapted to detecting prey underground."
+      "description": "Its tentacled nose is the fastest touch organ in the animal world. Living underground, it navigates in near-darkness with precision."
     },
     {
       "name": "Orca",
@@ -638,7 +638,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/fRPTFL48/Orca.png",
       "rarity": "Epic",
-      "description": "A powerful apex predator of the oceans, highly intelligent and capable of hunting large prey in coordinated groups."
+      "description": "Called “killer whales,” these dolphins are apex hunters of the sea. They live in tight family pods with complex social bonds."
     },
     {
       "name": "Spotted Hyena",
@@ -654,7 +654,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/7ZfTxtjb/spotted-hyena.png",
       "rarity": "Rare",
-      "description": "A highly social carnivore of African savannas, known for its endurance, powerful jaws, and coordinated hunting strategies."
+      "description": "Known for its eerie laugh, it is Africa’s most efficient predator. Female-led clans dominate, making it a matriarchal society."
     },
     {
       "name": "Meerkat",
@@ -670,7 +670,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/7YcZNHQY/meerkat.png",
       "rarity": "Common",
-      "description": "A small, social mongoose-like mammal of the African deserts, famous for standing guard and working in highly cooperative groups."
+      "description": "Standing upright on guard, it’s the sentinel of the desert. Living in clans, they cooperate in hunting and raising pups."
     },
     {
       "name": "Humpback Whale",
@@ -686,7 +686,7 @@
       "moves": "Tackle,Scratch,Bite,Suction",
       "sprite": "https://i.postimg.cc/VNmfB47q/Humpback_Whale.png",
       "rarity": "Epic",
-      "description": "A massive baleen whale known for its acrobatics and complex songs, inhabiting oceans worldwide and traveling in pods."
+      "description": "Famous for their haunting songs and dramatic breaching. They migrate thousands of miles between feeding and breeding grounds."
     },
     {
       "name": "Giant Oarfish",
@@ -702,7 +702,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/pd7ds2dB/giant-oarfish.png",
       "rarity": "Legendary",
-      "description": "A long, ribbon-like deep-sea fish, rarely seen near the surface, capable of ambushing prey with its massive body."
+      "description": "A deep-sea ribbonfish thought to inspire sea serpent legends. It can grow longer than 10 meters, rarely surfacing alive."
     },
     {
       "name": "Southern Giraffe",
@@ -718,7 +718,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/qBPXq38p/southern-giraffe.png",
       "rarity": "Rare",
-      "description": "A tall African herbivore with distinctive spots, using its long neck for feeding and powerful kicks to defend against predators."
+      "description": "The world’s tallest land animal, towering with elegant stride. Its long neck helps it browse treetops beyond other grazers’ reach."
     },
     {
       "name": "African Bush Elephant",
@@ -734,7 +734,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/6qvQGFLp/african-bush-elephant.png",
       "rarity": "Epic",
-      "description": "The largest land mammal on Earth, extremely strong and resilient, using its tusks, size, and weight to dominate threats."
+      "description": "The largest land animal alive, shaping savannas by uprooting trees. With immense tusks and social herds, it embodies strength and memory."
     },
     {
       "name": "African cape buffalo",
@@ -750,7 +750,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/7L2z25nG/cape-buffalo.png",
       "rarity": "Rare",
-      "description": "A massive and powerful African bovine, highly social and known for its unpredictable aggression when threatened."
+      "description": "Stocky and unpredictable, it is one of Africa’s most dangerous animals. Herds can number in thousands, protecting members with fierce loyalty."
     },
     {
       "name": "Termite",
@@ -766,7 +766,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/446qJs92/termite.png",
       "rarity": "Common",
-      "description": "A tiny social insect that lives in large colonies, feeding on wood and plant material, highly effective in numbers."
+      "description": "Tiny builders that can raise towering mounds from soil. Despite size, their colonies reshape entire ecosystems."
     },
     {
       "name": "Atlantic Bluefin Tuna",
@@ -782,7 +782,7 @@
       "moves": "Tackle,Scratch,Predatory Surge,Fin Slash",
       "sprite": "https://i.postimg.cc/QMPCxcRD/atlantic-bluefin.png",
       "rarity": "Rare",
-      "description": "A massive, fast-swimming predatory fish of the Atlantic, highly prized and capable of long migrations."
+      "description": "Built for speed, it is one of the ocean’s strongest swimmers. Highly prized, it’s capable of crossing entire oceans."
     },
     {
       "name": "Giant Grouper",
@@ -798,7 +798,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/Gt7PBxH3/giant-grouper.png",
       "rarity": "Epic",
-      "description": "One of the largest bony fish in the world, a slow but powerful reef predator capable of swallowing large prey whole."
+      "description": "Enormous and wide-mouthed, it ambushes prey in reefs. Despite its bulk, it is a surprisingly stealthy hunter."
     },
     {
       "name": "Atlantic Goliath Grouper",
@@ -814,7 +814,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/ZYVxD4Vk/Atlantic-goliath-grouper.png",
       "rarity": "Epic",
-      "description": "A massive reef-dwelling fish of the Atlantic, slow but extremely powerful, capable of swallowing large prey whole."
+      "description": "A reef giant reaching over 700 pounds. Known to boom underwater with low grunts to claim territory."
     },
     {
       "name": "Amazonian manatee",
@@ -830,7 +830,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/5NNmzVXt/amazonian-manatee.png",
       "rarity": "Rare",
-      "description": "A peaceful herbivorous marine mammal of the Amazon Basin, feeding on aquatic plants and using its bulk to deter predators."
+      "description": "A gentle herbivore grazing on aquatic plants in the Amazon basin. Peaceful and slow-moving, it is highly vulnerable to human threats."
     },
     {
       "name": "West Indian Manatee",
@@ -846,7 +846,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/sXrYgdFs/west-indian-manatee.png",
       "rarity": "Rare",
-      "description": "A slow-moving herbivorous marine mammal found in the Caribbean and Gulf of Mexico, gentle yet resilient against most predators."
+      "description": "Nicknamed “sea cows,” they graze calmly in coastal waters. They are friendly giants, often approaching boats out of curiosity."
     },
     {
       "name": "African Manatee",
@@ -862,7 +862,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/FzfHtzPR/african-manatee.png",
       "rarity": "Rare",
-      "description": "A gentle herbivore of West and Central African rivers and coasts, often living in secluded wetlands and mangrove areas."
+      "description": "The least studied of manatees, living in African rivers and lagoons. Mysterious and elusive, it feeds on both aquatic plants and fruits."
     },
     {
       "name": "Leatherback Sea Turtle",
@@ -878,7 +878,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/63rD8Xy0/leatherback-sea-turtle.png",
       "rarity": "Rare",
-      "description": "The largest sea turtle species, armored with a leathery shell, capable of migrating thousands of kilometers across oceans."
+      "description": "The largest turtle, built for long ocean migrations. Its leathery shell sets it apart from all other sea turtles."
     },
     {
       "name": "Mata Mata Turtle",
@@ -894,7 +894,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/BbGPCxZ3/mata-mata.png",
       "rarity": "Uncommon",
-      "description": "A strange-looking freshwater turtle from the Amazon, perfectly camouflaged among leaf litter and skilled at ambush hunting."
+      "description": "Camouflaged with a leaf-like head, it is a master ambusher. It sucks prey into its mouth with lightning suction."
     },
     {
       "name": "Burmese Python",
@@ -910,7 +910,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/15bh7JhD/burmese-python.png",
       "rarity": "Rare",
-      "description": "ne of the world’s largest snakes, capable of overpowering large prey with sheer strength and crushing coils."
+      "description": "Among the world’s biggest snakes, it coils with immense strength. It is an invasive powerhouse in Florida, consuming deer and alligators."
     },
     {
       "name": "Florida Green Water Snake",
@@ -926,7 +926,7 @@
       "moves": "Tackle,Scratch,Bite,Venomous Fang",
       "sprite": "https://i.postimg.cc/0ymgTDPF/florida-green-water-snake.png",
       "rarity": "Common",
-      "description": "A large, non-venomous snake native to the southeastern U.S., thriving in wetlands and feeding mostly on fish and amphibians."
+      "description": "A harmless semi-aquatic snake with olive-green scales. It preys mainly on fish and amphibians in wetlands."
     },
     {
       "name": "Black Mountain Skink",
@@ -942,7 +942,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/RZ98YFVL/black-mountain-skink.png",
       "rarity": "Uncommon",
-      "description": "A rare, rock-dwelling skink from Australia, dark in color and well-adapted to hiding in crevices to avoid predators."
+      "description": "A glossy black lizard adapted to rocky habitats. It thrives by basking in sun-warmed crevices."
     },
     {
       "name": "Green Anaconda",
@@ -958,7 +958,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/QM4Bhf2R/Green_Anaconda.png",
       "rarity": "Rare",
-      "description": "The heaviest snake in the world, the green anaconda thrives in swamps and rivers of South America, ambushing prey with sheer strength."
+      "description": "The heaviest snake alive, lurking in South American rivers. Its legendary size fuels countless myths of giant serpents."
     },
     {
       "name": "Crocodile Monitor",
@@ -974,7 +974,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/HnLYC22d/crocodile-monitor.png",
       "rarity": "Rare",
-      "description": "Native to Papua New Guinea, the crocodile monitor is one of the longest lizards in the world, armed with sharp claws, a powerful tail, and teeth designed to slice."
+      "description": "Long-tailed and sharp-clawed, it’s one of the longest lizards. Agile in trees, it preys on birds, mammals, and carrion."
     },
     {
       "name": "Tarantula Hawk",
@@ -990,7 +990,7 @@
       "moves": "Tackle,Scratch,Bite,Venomous Fang",
       "sprite": "https://i.postimg.cc/ncBFfCKs/tarantula-hawk.png",
       "rarity": "Uncommon",
-      "description": "A large wasp that hunts tarantulas, known for its extremely painful sting and impressive aerial agility."
+      "description": "A giant wasp that hunts tarantulas with a paralyzing sting. Its sting is infamous as one of the most painful in the insect world."
     },
     {
       "name": "Yellow Jacket Wasp",
@@ -1006,7 +1006,7 @@
       "moves": "Tackle,Scratch,Bite,Venomous Fang",
       "sprite": "https://i.postimg.cc/gc3QYR5P/yellow-jacket.png",
       "rarity": "Common",
-      "description": "A small but aggressive social wasp, capable of delivering painful stings and attacking in coordinated swarms."
+      "description": "Aggressive and fast, these wasps fiercely defend their nests. They scavenge sugary foods and protein with relentless energy."
     },
     {
       "name": "Short-Beaked Echidna",
@@ -1022,7 +1022,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/FHZ5Zcm4/short-beaked-echidna.png",
       "rarity": "Uncommon",
-      "description": "A small, egg-laying mammal from Australia with sharp spines for protection and a specialized tongue for catching ants and termites."
+      "description": "A spiny monotreme that lays eggs yet suckles its young. It feeds with a long sticky tongue slurping up ants and termites."
     },
     {
       "name": "Eastern Long-Beaked Echidna",
@@ -1038,7 +1038,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/L8vwfpB4/eastern-long-beaked-echidna.png",
       "rarity": "Rare",
-      "description": "A rare, long-beaked echidna from New Guinea, feeding on worms and insects, protected by sharp spines and a burrowing lifestyle."
+      "description": "A rare monotreme with an elongated snout and powerful claws. Endangered and secretive, it lives in New Guinea’s rainforests."
     },
     {
       "name": "Whitemouth Moray",
@@ -1054,7 +1054,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/RhDQ9gcB/whitemouth-moray.png",
       "rarity": "Uncommon",
-      "description": "A medium-sized moray eel found in Indo-Pacific reefs, striking swiftly from hidden spots to catch unsuspecting prey."
+      "description": "A large eel with pale jaws contrasting its dark body. It lurks in reef crevices, snapping at passing fish."
     },
     {
       "name": "Freshwater Moray",
@@ -1070,7 +1070,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/dVLrRbzm/freshwater-moray.png",
       "rarity": "Rare",
-      "description": "A rare moray eel that can thrive in freshwater rivers and estuaries of Southeast Asia, striking swiftly from hidden nooks."
+      "description": "An unusual eel that tolerates rivers and estuaries. It has sharp teeth and ambushes prey like its marine kin."
     },
     {
       "name": "Red Devil Vampire Crab",
@@ -1086,7 +1086,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/zv8Z9L6C/red-devil-vampire-crab.png",
       "rarity": "Uncommon",
-      "description": "A small, brightly colored freshwater crab from Southeast Asia, known for its aggressive behavior and striking red coloration."
+      "description": "With vivid purple claws and glowing orange eyes, it looks unreal. Popular in aquariums, it is both fierce-looking and small."
     },
     {
       "name": "Coconut Crab",
@@ -1102,7 +1102,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/J7fpxyS0/coconut-crab.png",
       "rarity": "Rare",
-      "description": "The largest terrestrial arthropod in the world, capable of climbing trees and cracking coconuts with its powerful claws."
+      "description": "The largest land crab, able to crack coconuts with its claws. It can climb trees and roam islands in search of food."
     },
     {
       "name": "Zebra Mantis Shrimp",
@@ -1118,7 +1118,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/fWqNRv3F/zebra-mantis-shrimp.png",
       "rarity": "Uncommon",
-      "description": "A brightly patterned mantis shrimp known for its lightning-fast strikes capable of stunning or breaking shells of prey."
+      "description": "Boldly striped, it delivers lightning-fast smashing strikes. Its eyes see colors far beyond human vision."
     },
     {
       "name": "Peacock Mantis Shrimp",
@@ -1134,7 +1134,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/HxWqpJTd/peacock-mantis-shrimp.png",
       "rarity": "Rare",
-      "description": "A vibrantly colored mantis shrimp known for its lightning-fast and extremely strong strikes, capable of breaking shells and stunning opponents."
+      "description": "Flashy and violent, it’s famous for its rainbow colors and deadly punch. Its strike can shatter glass aquariums."
     },
     {
       "name": "West Indian Ocean Coelacanth",
@@ -1150,7 +1150,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/Ghc9DKzj/west-indian-ocean-coelacanth.png",
       "rarity": "Legendary",
-      "description": "A living fossil fish with armored scales and a slow, deliberate movement, capable of ambushing prey and enduring attacks."
+      "description": "A “living fossil” once thought extinct for 65 million years. With lobed fins, it resembles the ancestors of land vertebrates."
     },
     {
       "name": "Peregrine Falcon",
@@ -1166,7 +1166,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/02sZwz6s/peregrine-falcon.png",
       "rarity": "Rare",
-      "description": "The fastest bird in the world, capable of diving at incredible speeds to strike prey with precision and deadly force."
+      "description": "The fastest animal on Earth, diving at over 200 mph. It is a cosmopolitan raptor found on every continent except Antarctica."
     },
     {
       "name": "Golden Eagle",
@@ -1182,7 +1182,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/bY7VRzJz/golden-eagle.png",
       "rarity": "Rare",
-      "description": "A powerful raptor with incredible vision and strength, known for soaring over mountains and swooping down on prey with unmatched precision."
+      "description": "A symbol of strength, it soars with immense wings over mountains. Its keen eyesight and powerful talons make it a formidable hunter."
     },
     {
       "name": "Bald Eagle",
@@ -1198,7 +1198,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/vZPvkX0Y/bald-eagle.png",
       "rarity": "Rare",
-      "description": "A majestic bird of prey and national symbol, the Bald Eagle is skilled at hunting fish and soaring over wide open waters."
+      "description": "America’s national bird, with a striking white head and dark body. It is a fish specialist, often seen swooping over lakes and rivers."
     },
     {
       "name": "Harpy Eagle",
@@ -1214,7 +1214,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/k4rRphtt/harpy-eagle.png",
       "rarity": "Rare",
-      "description": "One of the largest and most powerful eagles, the Harpy Eagle rules the rainforest canopy, using immense talons to seize prey as large as monkeys and sloths."
+      "description": "One of the world’s strongest eagles, capable of lifting monkeys. Its massive talons resemble bear claws in size."
     },
     {
       "name": "Red-tailed Hawk",
@@ -1230,7 +1230,7 @@
       "moves": "Tackle,Scratch,Piercing Beak,Peck",
       "sprite": "https://i.postimg.cc/hGVtf4ff/red-tailed-hawk.png",
       "rarity": "Uncommon",
-      "description": "A widespread and adaptable raptor with a piercing scream, the Red-tailed Hawk uses its sharp vision and powerful dive to catch prey in open landscapes."
+      "description": "Recognized by its russet tail, it is common across North America. Its piercing scream is a classic sound in movies."
     },
     {
       "name": "Snowy Owl",
@@ -1246,7 +1246,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/RFM4hckD/snow-owl.png",
       "rarity": "Rare",
-      "description": "A large white owl adapted to cold climates, the Snowy Owl uses its silent wings and sharp talons to ambush prey across the tundra and icy plains."
+      "description": "Clad in white feathers, it patrols the Arctic tundra. It is a powerful hunter of lemmings and small mammals."
     },
     {
       "name": "Great Blue Heron",
@@ -1262,7 +1262,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/TwGgP4Yv/great-blue-heron.png",
       "rarity": "Uncommon",
-      "description": "A tall and graceful wading bird, the Great Blue Heron hunts fish and amphibians with precision strikes from its long, spear-like beak."
+      "description": "Tall and elegant, it stalks patiently in shallow waters. It strikes with lightning speed to spear fish."
     },
     {
       "name": "Greater Flamingo",
@@ -1278,7 +1278,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/BnKKB0jG/flamingo.png",
       "rarity": "Uncommon",
-      "description": "A tall, pink wading bird that feeds by filtering water, using its long legs and beak to navigate shallow waters and maintain balance while defending itself."
+      "description": "With long legs and pink plumage, it wades in lagoons. Its curved bill filters shrimp and algae from water."
     },
     {
       "name": "Brown Pelican",
@@ -1294,7 +1294,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/ZK19RMVs/brown-pelican.png",
       "rarity": "Uncommon",
-      "description": "A coastal bird known for its spectacular plunging dives to catch fish, using its large beak pouch to scoop prey efficiently."
+      "description": "Known for dramatic dives, it plunges headfirst into the sea. Its throat pouch can scoop gallons of fish-filled water."
     },
     {
       "name": "Mallard Duck",
@@ -1310,7 +1310,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/d0CgFLDS/mallard-duck.png",
       "rarity": "Common",
-      "description": "A common duck found near lakes and rivers, skilled at swimming, diving for food, and evading predators with quick movements."
+      "description": "The drake’s green head makes it one of the most recognized ducks. Widespread and adaptable, it thrives in ponds and wetlands worldwide."
     },
     {
       "name": "Great White Pelican",
@@ -1326,7 +1326,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/4dmPG084/great-white-pelican.png",
       "rarity": "Uncommon",
-      "description": "A large wading bird with a massive beak pouch, the Great White Pelican scoops fish from shallow waters with precision and teamwork."
+      "description": "With enormous wings, it soars in graceful flocks over lakes. Its bill pouch can hold more fish than its stomach."
     },
     {
       "name": "Mute Swan",
@@ -1342,7 +1342,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/qq28MH2r/mute-swan.png",
       "rarity": "Uncommon",
-      "description": "A large and elegant waterfowl, the Mute Swan uses its strong wings and long neck to defend territory and catch small prey in lakes and rivers."
+      "description": "Elegant and snowy white, it glides across ponds like royalty. Fiercely territorial, it defends its cygnets with surprising aggression."
     },
     {
       "name": "Eurasian Eagle-Owl",
@@ -1358,7 +1358,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/HWNKrw5P/eurasian_eagle_owl.png",
       "rarity": "Rare",
-      "description": "One of the largest owls in the world, the Eurasian Eagle-Owl uses its massive talons, silent flight, and keen vision to hunt a variety of prey at night."
+      "description": "A huge owl with fiery orange eyes and ear tufts. Its silent wings and crushing talons make it a top nocturnal predator."
     },
     {
       "name": "Blue Jay",
@@ -1374,7 +1374,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/s26FKtQ3/blue_jay.png",
       "rarity": "Common",
-      "description": "A clever and noisy bird, the Blue Jay uses its intelligence and loud calls to confuse predators and defend its territory."
+      "description": "A bold bird with vibrant blue plumage and a noisy call. Intelligent and mischievous, it often mimics hawk cries."
     },
     {
       "name": "Northern Cardinal",
@@ -1390,7 +1390,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/LXLThPMG/northern-cardinal.png",
       "rarity": "Common",
-      "description": "A bright red songbird known for its melodious calls and quick movements, often using agility to evade predators."
+      "description": "The male’s bright red plumage makes it a backyard favorite. Its sweet whistling song is a hallmark of spring."
     },
     {
       "name": "Eurasian Magpie",
@@ -1406,7 +1406,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/0NqrPKcz/eurasian-magpie.png",
       "rarity": "Common",
-      "description": "A highly intelligent and adaptable bird, the Eurasian Magpie uses its cleverness to gather food, evade predators, and sometimes play tricks on other creatures."
+      "description": "Striking black-and-white plumage hides its remarkable intelligence. It is one of the few animals that recognizes itself in a mirror."
     },
     {
       "name": "Common Raven",
@@ -1422,7 +1422,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/mDLDFfxR/common-raven.png",
       "rarity": "Uncommon",
-      "description": "A large and intelligent bird, the Common Raven uses strategy and adaptability to hunt, scavenge, and evade threats across varied environments."
+      "description": "A bird of myth, known for intelligence and adaptability. It performs aerial acrobatics and can solve complex puzzles."
     },
     {
       "name": "Great Spotted Woodpecker",
@@ -1438,7 +1438,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/Y0fBNjQs/great_spotted_woodpecker.png",
       "rarity": "Uncommon",
-      "description": "A clever and agile woodpecker that drills into tree trunks to find insects, using its sharp beak to strike and sometimes stun its prey."
+      "description": "Drumming trees with its beak, it announces its presence loudly. Black, white, and red plumage makes it easy to spot."
     },
     {
       "name": "Common Blackbird",
@@ -1454,7 +1454,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/0yjhjVX3/common-blackbird.png",
       "rarity": "Common",
-      "description": "A widespread and adaptable songbird, the Common Blackbird uses its quick movements and melodious song to defend territory and evade predators."
+      "description": "A melodious songster, the male sings from rooftops and hedges. Glossy black plumage contrasts with its bright yellow beak."
     },
     {
       "name": "Red-whiskered Bulbul",
@@ -1470,7 +1470,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/Vv5XnbyY/red-whiskered-bulbul.png",
       "rarity": "Common",
-      "description": "A small and active bird with distinctive red markings, the Red-whiskered Bulbul uses its alertness and quick movements to escape predators and signal danger."
+      "description": "With a perky crest and red cheek patch, it is lively and vocal. It thrives in gardens, filling mornings with song."
     },
     {
       "name": "Scarlet Macaw",
@@ -1486,7 +1486,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/5t0zZC08/scarlet_macaw.png",
       "rarity": "Rare",
-      "description": "A large and vividly colored parrot of the rainforest, the Scarlet Macaw uses its bright plumage and agility to evade predators and interact socially."
+      "description": "A rainbow of feathers, it is a symbol of the rainforest. Loud and social, it flies in flocks across the canopy."
     },
     {
       "name": "White-throated Toucan",
@@ -1502,7 +1502,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/zBqPKpXT/white-throated-toucan.png",
       "rarity": "Rare",
-      "description": "A large tropical bird with a colorful and oversized beak, the White-throated Toucan uses its beak to reach fruit, scare predators, and playfully interact with others."
+      "description": "With a giant yellow bill, it feasts on jungle fruits. Its calls echo like croaking frogs across the forest."
     },
     {
       "name": "Andean Cock-of-the-Rock",
@@ -1518,7 +1518,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/cJCvn6nZ/andean-cock-of-the-rock.png",
       "rarity": "Rare",
-      "description": "A striking bird of the Andes known for its brilliant red plumage and elaborate mating displays, using its colors and agility to dazzle and evade threats."
+      "description": "The males flaunt bright orange crests in elaborate dances. They gather in leks, competing fiercely for mates."
     },
     {
       "name": "Guianan Cock-of-the-Rock",
@@ -1534,7 +1534,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/4dhnWMPS/guianan-cock-of-the-rock.png",
       "rarity": "Rare",
-      "description": "A vibrant orange bird of the Guiana Shield, famous for its colorful courtship dances and agility in forest canopies, using its display to confuse predators and rivals."
+      "description": "Similar to its Andean cousin, but glowing scarlet instead of orange. Its bizarre shape and plumage make it one of the jungle’s most flamboyant birds."
     },
     {
       "name": "Bullet Ant",
@@ -1550,7 +1550,7 @@
       "moves": "Tackle,Scratch,Bite,Venomous Fang",
       "sprite": "https://i.postimg.cc/HnxZPxMx/bullet-ant.png",
       "rarity": "Rare",
-      "description": "Known for having one of the most painful stings in the insect world, the Bullet Ant uses speed and powerful stings to defend itself and attack prey."
+      "description": "Infamous for having the most painful sting of any insect. Indigenous rituals use its sting as a test of endurance."
     },
     {
       "name": "Glasswing Butterfly",
@@ -1566,7 +1566,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/RCDXZvf7/glasswing-butterfly.png",
       "rarity": "Uncommon",
-      "description": "A delicate butterfly with transparent wings, the Glasswing uses stealth and speed to avoid predators while fluttering gracefully through its habitat."
+      "description": "Its wings are see-through, like delicate panes of glass. A living jewel, it flutters quietly through tropical forests."
     },
     {
       "name": "Cotton-top Tamarin",
@@ -1582,7 +1582,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/wBGwPH6T/cotton-top-tamarin.png",
       "rarity": "Uncommon",
-      "description": "A small and energetic primate with striking white hair, the Cotton-top Tamarin uses speed and agility to forage, evade predators, and play within its social groups."
+      "description": "Tiny monkeys with wild white crests of hair. Endangered and energetic, they chatter constantly in groups."
     },
     {
       "name": "Emperor Tamarin",
@@ -1598,7 +1598,7 @@
       "moves": "Tackle,Scratch,Bite,Peck",
       "sprite": "https://i.postimg.cc/m21VQ27Y/emperor-tamarin.png",
       "rarity": "Uncommon",
-      "description": "A small primate known for its distinctive long mustache, the Emperor Tamarin uses agility and clever tricks to forage, evade predators, and interact socially."
+      "description": "Distinguished by its long, curling white mustache. Playful and agile, it leaps effortlessly through treetops."
     },
     {
       "name": "Black Lion Tamarin",
@@ -2110,7 +2110,7 @@
       "moves": "Tackle,Scratch,Bite,Venomous Fang",
       "sprite": "https://i.postimg.cc/YC4p6zJ0/payara.png",
       "rarity": "Rare",
-      "description": "Known as the \"vampire fish,\" the Payara is a predatory freshwater fish from South America with long dagger-like fangs that can pierce through prey in fast-flowing rivers."
+      "description": "Known as the “vampire fish,” the Payara is a predatory freshwater fish from South America with long dagger-like fangs that can pierce through prey in fast-flowing rivers."
     },
     {
       "name": "Tiger Shovelnose Catfish",
@@ -16014,7 +16014,7 @@
       "moves": "Bite, Quick Dash, Tail Whip, Guard Up",
       "sprite": "https://i.postimg.cc/V6ByN1V0/Red_Parrot_Cichlid.png",
       "rarity": "Uncommon",
-      "description": "A bright ornamental cichlid with a rounded beak-like mouth."
+      "description": "A hybrid aquarium fish, it’s known for its bright red-orange body and beak-like mouth. Despite their odd shape, they are hardy and lively swimmers."
     },
     {
       "name": "Rhinoceros Iguana",
@@ -16030,7 +16030,7 @@
       "moves": "Bite, Tail Whip, Guard Up, Quick Dash",
       "sprite": "https://i.postimg.cc/Y0p5GV51/Rhinoceros_Iguana.png",
       "rarity": "Rare",
-      "description": "A large iguana with horn-like scales on its snout."
+      "description": "Named for its horn-like snout scales, this iguana is found in Hispaniola. It’s a large herbivore that basks in rocky, arid habitats."
     },
     {
       "name": "Roseline Shark",
@@ -16046,7 +16046,7 @@
       "moves": "Bite, Quick Dash, Tail Whip, Guard Up",
       "sprite": "https://i.postimg.cc/RFQr09DF/Roseline_Shark.png",
       "rarity": "Uncommon",
-      "description": "A colorful freshwater fish with a red stripe and fast swimming."
+      "description": "Brightly striped with a red lateral line, this freshwater fish is a favorite in aquariums. It is active, peaceful, and thrives in schools."
     },
     {
       "name": "Spotfin Porcupinefish",
@@ -16062,7 +16062,7 @@
       "moves": "Bite, Spine Bash, Guard Up, Quick Dash",
       "sprite": "https://i.postimg.cc/rs8B0bBm/Spotfin_Porcupinefish.png",
       "rarity": "Rare",
-      "description": "A spiny fish that inflates its body when threatened."
+      "description": "Covered in sharp spines, it inflates into a spiky ball when threatened. Its large eyes and spotted body make it striking underwater."
     },
     {
       "name": "Xingu River Ray",
@@ -16078,7 +16078,7 @@
       "moves": "Sting, Tail Whip, Guard Up, Quick Dash",
       "sprite": "https://i.postimg.cc/Wz2BFKBh/Xingu_River_Ray.png",
       "rarity": "Epic",
-      "description": "A striking freshwater stingray with black and white patterns."
+      "description": "Endemic to Brazil’s Xingu River, it has a black disc marked with white spots. It glides gracefully along sandy riverbeds in search of prey."
     },
     {
       "name": "Chinese Red-headed Centipede",
@@ -16094,7 +16094,7 @@
       "moves": "Bite, Quick Dash, Claw Strike, Guard Up",
       "sprite": "https://i.postimg.cc/c1bFQ459/Chinese_Red-headed_Centipede.png",
       "rarity": "Rare",
-      "description": "A large red-headed centipede with a venomous bite."
+      "description": "With a vivid red head and long body, it delivers a potent venom. It is a fast, aggressive predator of insects and small animals."
     },
     {
       "name": "Japanese Giant Centipede",
@@ -16110,7 +16110,7 @@
       "moves": "Bite, Quick Dash, Claw Strike, Guard Up",
       "sprite": "https://i.postimg.cc/qB518MZm/Japanese_Giant_Centipede.png",
       "rarity": "Rare",
-      "description": "A giant centipede native to Japan with aggressive behavior."
+      "description": "Large and formidable, it can subdue prey much bigger than itself. It lives in forests and is feared for its painful bite."
     },
     {
       "name": "Malaysia Cherry Red Centipede",
@@ -16126,7 +16126,7 @@
       "moves": "Bite, Quick Dash, Claw Strike, Guard Up",
       "sprite": "https://i.postimg.cc/pV6sDX1J/Malaysia_Cherry_Red_Centipede.png",
       "rarity": "Rare",
-      "description": "A bright red centipede from Malaysia with strong venom."
+      "description": "Known for its deep red coloration, it is striking and intimidating. This centipede thrives in humid tropical environments."
     },
     {
       "name": "Peruvian Giant Centipede",
@@ -16142,7 +16142,7 @@
       "moves": "Bite, Quick Dash, Claw Strike, Guard Up",
       "sprite": "https://i.postimg.cc/gcTgvkB3/Peruvian_Giant_Centipede.png",
       "rarity": "Epic",
-      "description": "A massive centipede from South America that preys on small vertebrates."
+      "description": "Among the world’s largest centipedes, it can exceed 30 cm. It hunts insects, amphibians, and even small vertebrates."
     },
     {
       "name": "Solomon Island Giant Centipede",
@@ -16158,7 +16158,7 @@
       "moves": "Bite, Quick Dash, Claw Strike, Guard Up",
       "sprite": "https://i.postimg.cc/xj46KTFM/Solomon_Island_Giant_Centipede.png",
       "rarity": "Rare",
-      "description": "A venomous centipede inhabiting the Solomon Islands."
+      "description": "A tropical predator, it prowls the forest floor in search of prey. Its elongated body and quick movements make it efficient."
     },
     {
       "name": "Thai Giant Black Flame Centipede",
@@ -16174,7 +16174,7 @@
       "moves": "Bite, Quick Dash, Claw Strike, Guard Up",
       "sprite": "https://i.postimg.cc/1Rjvp5Y0/Thai_Giant_Black_Flame_Centipede.png",
       "rarity": "Rare",
-      "description": "A striking black and red centipede from Thailand."
+      "description": "Dark with reddish legs, it stands out with a fiery appearance. It is both aggressive and powerful in its hunting style."
     },
     {
       "name": "Vietnamese Giant Centipede",
@@ -16190,7 +16190,7 @@
       "moves": "Bite, Quick Dash, Claw Strike, Guard Up",
       "sprite": "https://i.postimg.cc/v8N0WHS3/Vietnamese_Giant_Centipede.png",
       "rarity": "Rare",
-      "description": "A fast and aggressive centipede native to Vietnam."
+      "description": "One of the most feared centipedes, it is large and fast-moving. Its venomous bite is painful but rarely life-threatening."
     },
     {
       "name": "Blacktip Fromia Starfish",
@@ -16206,7 +16206,7 @@
       "moves": "Arm Slam, Guard Up, Quick Dash, Shell Bash",
       "sprite": "https://i.postimg.cc/9XdGRJ9K/Blacktip_Fromia_Starfish.png",
       "rarity": "Uncommon",
-      "description": "A reef starfish with black-tipped arms that can regenerate."
+      "description": "With black-tipped arms, this starfish is a jewel of coral reefs. It feeds on biofilm and adds vibrant beauty to aquariums."
     },
     {
       "name": "Cactus Wren",
@@ -16222,7 +16222,7 @@
       "moves": "Scratch, Wing Flap, Quick Dash, Guard Up",
       "sprite": "https://i.postimg.cc/qqxnPv01/Cactus_Wren.png",
       "rarity": "Common",
-      "description": "A desert bird that builds nests among cactus spines."
+      "description": "The largest wren in the U.S., it builds nests in cactus spines for protection. Its loud, harsh calls echo across arid landscapes."
     },
     {
       "name": "Inca Dove",
@@ -16238,7 +16238,7 @@
       "moves": "Wing Flap, Quick Dash, Scratch, Guard Up",
       "sprite": "https://i.postimg.cc/G3Fk8qD6/Inca_Dove.png",
       "rarity": "Common",
-      "description": "A small dove with a scaled appearance, common in towns."
+      "description": "Small and slender, it shows scaled-looking feathers across its body. It often forages in flocks, cooing softly in urban and rural areas."
     },
     {
       "name": "Namaqua Dove",
@@ -16254,7 +16254,7 @@
       "moves": "Wing Flap, Quick Dash, Scratch, Guard Up",
       "sprite": "https://i.postimg.cc/XqkFRY38/Namaqua_Dove.png",
       "rarity": "Uncommon",
-      "description": "A delicate long-tailed dove found in dry regions."
+      "description": "A tiny dove with a long tail, it thrives in dry African habitats. Males show bold black throats and red eye-rings."
     },
     {
       "name": "Ashy-crowned Sparrow Lark",
@@ -16270,7 +16270,7 @@
       "moves": "Wing Flap, Quick Dash, Scratch, Guard Up",
       "sprite": "https://i.postimg.cc/LsgxrLW1/Ashy-crowned_Sparrow_Lark.png",
       "rarity": "Uncommon",
-      "description": "A small lark with an ashy crown, adapted to arid habitats."
+      "description": "With a gray crown and earthy tones, it blends perfectly into arid plains. It feeds mostly on seeds and insects."
     },
     {
       "name": "Thick-billed Lark",
@@ -16286,7 +16286,7 @@
       "moves": "Wing Flap, Scratch, Quick Dash, Guard Up",
       "sprite": "https://i.postimg.cc/k5RTkKHt/Thick-billed_Lark.png",
       "rarity": "Uncommon",
-      "description": "A desert bird with a heavy beak used for cracking seeds."
+      "description": "Its strong beak helps crack hard desert seeds with ease. It has a chunky body and pale sandy plumage."
     },
     {
       "name": "Trumpeter Finch",
@@ -16302,7 +16302,7 @@
       "moves": "Wing Flap, Quick Dash, Scratch, Guard Up",
       "sprite": "https://i.postimg.cc/25L0PhtL/Trumpeter_Finch.png",
       "rarity": "Uncommon",
-      "description": "A pinkish finch known for its trumpeting call."
+      "description": "Recognized by its rosy-pink plumage, it inhabits rocky deserts. Its nasal calls resemble a trumpet, giving it its name."
     },
     {
       "name": "Barbary Falcon",
@@ -16318,7 +16318,7 @@
       "moves": "Wing Flap, Scratch, Quick Dash, Bite",
       "sprite": "https://i.postimg.cc/nLnv17t6/Barbary_Falcon.png",
       "rarity": "Rare",
-      "description": "A desert-dwelling falcon known for its speed and hunting skill."
+      "description": "Closely related to the peregrine, it is swift and powerful. Found in North Africa, it preys on birds in flight."
     },
     {
       "name": "Griffon Vulture",
@@ -16334,7 +16334,7 @@
       "moves": "Peck, Wing Buffet, Glide, Screech",
       "sprite": "https://i.postimg.cc/PqdmMZjd/Griffon_Vulture.png",
       "rarity": "Rare",
-      "description": "A massive vulture that circles high cliffs searching for carrion."
+      "description": "With broad wings, it soars effortlessly on thermals in search of carrion. Its bald head and hooked beak are perfect for scavenging."
     },
     {
       "name": "Pharaoh Eagle Owl",
@@ -16350,7 +16350,7 @@
       "moves": "Claw, Peck, Wing Slash, Stalk",
       "sprite": "https://i.postimg.cc/9fcGBTh3/Pharaoh_Eagle_Owl.png",
       "rarity": "Uncommon",
-      "description": "A large desert owl with piercing eyes and silent wings."
+      "description": "One of the largest owls in North Africa, it has striking orange eyes. It hunts at night, feeding on rodents, birds, and reptiles."
     },
     {
       "name": "Saker Falcon",
@@ -16366,7 +16366,7 @@
       "moves": "Dive, Peck, Wing Slash, Dash",
       "sprite": "https://i.postimg.cc/QMjpq5r2/Saker_Falcon.png",
       "rarity": "Rare",
-      "description": "A fast hunting falcon prized for its agility and speed."
+      "description": "Large and fierce, it has been prized in falconry for centuries. It hunts birds and mammals across Eurasia’s steppes."
     },
     {
       "name": "Steppe Eagle",
@@ -16382,7 +16382,7 @@
       "moves": "Dive, Peck, Wing Slash, Guard",
       "sprite": "https://i.postimg.cc/N0Q1xTcB/Steppe_Eagle.png",
       "rarity": "Rare",
-      "description": "A large eagle that dominates the open steppes with its power."
+      "description": "A migratory raptor, it breeds in Central Asia and winters in Africa. Its diet includes carrion, rodents, and ground birds."
     },
     {
       "name": "Blackstart",
@@ -16398,7 +16398,7 @@
       "moves": "Peck, Flap, Dash, Call",
       "sprite": "https://i.postimg.cc/76wJ4yLj/Blackstart.png",
       "rarity": "Common",
-      "description": "A small desert bird known for its quick movements."
+      "description": "A small desert bird, it flicks its tail while foraging among rocks. Its plumage is mostly gray with a contrasting black tail."
     },
     {
       "name": "Cream-colored Courser",
@@ -16414,7 +16414,7 @@
       "moves": "Peck, Dash, Wing Flap, Call",
       "sprite": "https://i.postimg.cc/bJpSPjvV/Cream-colored_Courser.png",
       "rarity": "Common",
-      "description": "A light desert bird that sprints across sandy ground."
+      "description": "Long-legged and elegant, it runs swiftly across deserts. Its sandy plumage camouflages perfectly with arid landscapes."
     },
     {
       "name": "Eurasian Hoopoe",
@@ -16430,7 +16430,7 @@
       "moves": "Peck, Wing Slash, Call, Hop",
       "sprite": "https://i.postimg.cc/C1Sn0VKX/Eurasian_Hoopoe.png",
       "rarity": "Uncommon",
-      "description": "A striking bird with a vivid crest and distinctive call."
+      "description": "Famous for its crown of feathers, it has a long curved bill. It probes soil for insects while flashing its striking wings in flight."
     },
     {
       "name": "Greater Hoopoe Lark",
@@ -16446,7 +16446,7 @@
       "moves": "Peck, Dash, Wing Flap, Call",
       "sprite": "https://i.postimg.cc/pTR5vtdw/Greater_Hoopoe_Lark.png",
       "rarity": "Common",
-      "description": "A desert lark adapted to blend with sandy terrain."
+      "description": "The largest lark, it has a long curved bill for digging insects. It inhabits deserts and displays fluttering courtship flights."
     },
     {
       "name": "Painted Sandgrouse",
@@ -16462,7 +16462,7 @@
       "moves": "Peck, Flap, Glide, Call",
       "sprite": "https://i.postimg.cc/vBbxydmS/Painted_Sandgrouse.png",
       "rarity": "Uncommon",
-      "description": "A patterned sandgrouse that travels in groups across dry lands."
+      "description": "Males are adorned with intricate patterns of chestnut, white, and black. They are ground-dwelling birds that fly to waterholes at dusk."
     },
     {
       "name": "Pink-toe Tarantula",
@@ -16478,7 +16478,7 @@
       "moves": "Bite, Web Shot, Pounce, Lunge",
       "sprite": "https://i.postimg.cc/g2vmyLY7/Pink-toe_Tarantula.png",
       "rarity": "Uncommon",
-      "description": "A tree-dwelling tarantula with distinctive pink toes."
+      "description": "With pink-tipped feet, it is a gentle arboreal tarantula from South America. It weaves silk retreats among trees and bushes."
     },
     {
       "name": "Yellow-footed Tortoise",
@@ -16494,7 +16494,7 @@
       "moves": "Bite, Withdraw, Stomp, Tail Whip",
       "sprite": "https://i.postimg.cc/x1r9b32D/Yellow-footed_Tortoise.png",
       "rarity": "Rare",
-      "description": "A sturdy tortoise from South America with yellow markings on its legs."
+      "description": "Found in South America, it shows yellow scales on its limbs. It feeds on fruit, leaves, and fungi in tropical forests."
     },
     {
       "name": "Banded Knifefish",
@@ -16510,7 +16510,7 @@
       "moves": "Zap, Bite, Splash, Dash",
       "sprite": "https://i.postimg.cc/HxCmPQ2z/Banded_Knifefish.png",
       "rarity": "Uncommon",
-      "description": "A nocturnal fish that uses electric pulses to navigate murky waters."
+      "description": "Slender with a wave-like swimming motion, it moves gracefully. It uses weak electric fields to sense its environment."
     },
     {
       "name": "Black Arowana",
@@ -16526,7 +16526,7 @@
       "moves": "Bite, Splash, Dash, Leap",
       "sprite": "https://i.postimg.cc/k4dChxcK/Black_Arowana.png",
       "rarity": "Rare",
-      "description": "A sleek freshwater fish known for leaping out of water to catch prey."
+      "description": "A surface-dwelling predator, it leaps to snatch insects and birds. Its dark juveniles slowly mature into silvery adults."
     },
     {
       "name": "Laulao Catfish",
@@ -16542,7 +16542,7 @@
       "moves": "Bite, Splash, Ram, Thrash",
       "sprite": "https://i.postimg.cc/JnW8dbqj/Laulao_Catfish.png",
       "rarity": "Rare",
-      "description": "A massive South American catfish that prowls river depths."
+      "description": "Massive and powerful, it inhabits the Amazon River basin. It is a prized food fish and can grow over two meters."
     },
     {
       "name": "Ocellate River Stingray",
@@ -16558,7 +16558,7 @@
       "moves": "Sting, Splash, Ram, Glide",
       "sprite": "https://i.postimg.cc/W3PVfMnm/Ocellate_River_Stingray.png",
       "rarity": "Epic",
-      "description": "A striking freshwater stingray patterned with eye-like spots."
+      "description": "Decorated with eye-like spots, it blends into sandy riverbeds. It hunts small fish and crustaceans in South America."
     },
     {
       "name": "Silver Arowana",
@@ -16574,7 +16574,7 @@
       "moves": "Bite, Splash, Dash, Leap",
       "sprite": "https://i.postimg.cc/ydzKrFPF/Silver_Arowana.png",
       "rarity": "Uncommon",
-      "description": "A silver-scaled predator that glides gracefully through rivers."
+      "description": "Known as the “dragon fish,” it glides with metallic silver scales. It is a skilled jumper, often catching prey above water."
     },
     {
       "name": "African Palm Civet",
@@ -16590,7 +16590,7 @@
       "moves": "Bite, Scratch, Pounce, Dash",
       "sprite": "https://i.postimg.cc/T337cpXR/African_Palm_Civet.png",
       "rarity": "Uncommon",
-      "description": "A small nocturnal mammal that climbs trees in search of fruit and prey."
+      "description": "A nocturnal mammal, it has a long tail and coarse fur. It feeds on fruit, insects, and small vertebrates in forests."
     },
     {
       "name": "Magdalena River Turtle",
@@ -16606,7 +16606,7 @@
       "moves": "Bite, Withdraw, Tail Whip, Splash",
       "sprite": "https://i.postimg.cc/XNyKgnCx/Magdalena_River_Turtle.png",
       "rarity": "Rare",
-      "description": "A freshwater turtle native to Colombias Magdalena River."
+      "description": "Endangered and endemic to Colombia, it lives in slow rivers. It feeds on aquatic vegetation and small invertebrates."
     },
     {
       "name": "Mexican Spotted Wood Turtle",
@@ -16622,7 +16622,7 @@
       "moves": "Bite, Withdraw, Tail Whip, Stomp",
       "sprite": "https://i.postimg.cc/Kcg75mM0/Mexican_Spotted_Wood_Turtle.png",
       "rarity": "Uncommon",
-      "description": "A small turtle found in forest streams of Mexico."
+      "description": "With bold orange markings, it inhabits streams and forests. It is a shy turtle, often hiding under vegetation."
     },
     {
       "name": "New Gunea Snake-necked Turtle",
@@ -16638,7 +16638,7 @@
       "moves": "Bite, Withdraw, Lunge, Splash",
       "sprite": "https://i.postimg.cc/HW70tTy9/New_Gunea_Snake-necked_Turtle.png",
       "rarity": "Rare",
-      "description": "A turtle with an unusually long neck used for striking prey."
+      "description": "Its long neck allows it to strike quickly at fish. It retracts its head sideways rather than pulling it straight back."
     },
     {
       "name": "Arrau Turtle",
@@ -16654,7 +16654,7 @@
       "moves": "Bite, Withdraw, Tail Whip, Stomp",
       "sprite": "https://i.postimg.cc/qvfpCxTH/Arrau_Turtle.png",
       "rarity": "Rare",
-      "description": "One of the largest freshwater turtles in South America."
+      "description": "Also called the giant South American river turtle, it grows impressively large. It nests in huge colonies along sandy riverbanks."
     },
     {
       "name": "Ferruginous Hawk",
@@ -16670,7 +16670,7 @@
       "moves": "Dive, Peck, Wing Slash, Soar",
       "sprite": "https://i.postimg.cc/LsmzVfpK/Ferruginous_Hawk.png",
       "rarity": "Uncommon",
-      "description": "A powerful hawk that soars over open plains in search of prey."
+      "description": "With rusty-colored plumage, it is one of North America’s largest hawks. It preys on rabbits, prairie dogs, and ground squirrels."
     },
     {
       "name": "Bolivian Salmon Pink Tarantula",
@@ -16686,7 +16686,7 @@
       "moves": "Bite, Web Shot, Pounce, Lunge",
       "sprite": "https://i.postimg.cc/zGmqRFrm/Bolivian_Salmon_Pink_Tarantula.png",
       "rarity": "Uncommon",
-      "description": "A large tarantula with a reddish hue and defensive bite."
+      "description": "A large South American tarantula, it is calm yet imposing. Its salmon-colored hairs give it a unique appearance."
     },
     {
       "name": "Goliath Birdeater",
@@ -16702,7 +16702,7 @@
       "moves": "Bite, Web Shot, Pounce, Lunge",
       "sprite": "https://i.postimg.cc/bwXq29j7/Goliath_Birdeater.png",
       "rarity": "Epic",
-      "description": "The worlds largest spider, capable of preying on small animals."
+      "description": "The world’s largest spider by mass, it has powerful fangs and thick legs. Despite its name, it rarely eats birds, focusing on insects and small animals."
     },
     {
       "name": "Blue Monkey",
@@ -16718,7 +16718,7 @@
       "moves": "Claw Slash, Bite, Leap, Dash",
       "sprite": "https://i.postimg.cc/bwwCRsjy/Blue_Monkey.png",
       "rarity": "Uncommon",
-      "description": "A lively monkey found in dense African jungles."
+      "description": "With bluish-gray fur and a white throat patch, it lives in African forests. It is highly social, often forming large troops."
     },
     {
       "name": "Common Squirrel Monkey",
@@ -16734,7 +16734,7 @@
       "moves": "Scratch, Leap, Quick Dash, Tail Whip",
       "sprite": "https://i.postimg.cc/137W7s91/Common_Squirrel_Monkey.png",
       "rarity": "Common",
-      "description": "A small and active monkey of the rainforest."
+      "description": "Tiny and agile, it leaps swiftly among branches in the Amazon. Its expressive face and high-pitched calls make it lively."
     },
     {
       "name": "Diana Monkey",
@@ -16750,7 +16750,7 @@
       "moves": "Claw Slash, Bite, Leap, Dash",
       "sprite": "https://i.postimg.cc/htty0fqq/Diana_Monkey.png",
       "rarity": "Uncommon",
-      "description": "A striking monkey with a white crest and beard."
+      "description": "Named for its crescent-shaped brow marking, it is a colorful African primate. It is playful, noisy, and dependent on dense forests."
     },
     {
       "name": "Mandrill",
@@ -16766,7 +16766,7 @@
       "moves": "Claw Slash, Bite, Roar, Charge",
       "sprite": "https://i.postimg.cc/52KPKbx1/Mandrill.png",
       "rarity": "Rare",
-      "description": "A powerful monkey with bright facial colors."
+      "description": "The largest monkey, males have bright red and blue facial ridges. They live in troops and display vivid coloration during dominance."
     },
     {
       "name": "Red Howler Monkey",
@@ -16782,7 +16782,7 @@
       "moves": "Scratch, Bite, Howl, Leap",
       "sprite": "https://i.postimg.cc/W11W7hPc/Red_Howler_Monkey.png",
       "rarity": "Uncommon",
-      "description": "A loud monkey known for its deep calls."
+      "description": "Known for its booming calls, it is one of the loudest land animals. It feeds mainly on leaves high in the canopy."
     },
     {
       "name": "White-headed Capuchin",
@@ -16798,7 +16798,7 @@
       "moves": "Scratch, Bite, Leap, Dash",
       "sprite": "https://i.postimg.cc/GmgMgdbZ/White-headed_Capuchin.png",
       "rarity": "Uncommon",
-      "description": "A clever monkey often seen using tools."
+      "description": "Intelligent and curious, it uses tools and shows complex behavior. Its white face contrasts with its dark fur."
     },
     {
       "name": "Paper Wasp",
@@ -16814,7 +16814,7 @@
       "moves": "Sting, Dive, Quick Dash, Buzz",
       "sprite": "https://i.postimg.cc/LsvVvQWb/Paper-Wasp.png",
       "rarity": "Common",
-      "description": "A small wasp known for its papery nest and painful sting."
+      "description": "Slender and elegant, paper wasps craft nests from chewed wood fibers. They are social insects with a painful sting and play a role in controlling pests."
     },
     {
       "name": "Spicebush Swallowtail Caterpillar",
@@ -16830,7 +16830,7 @@
       "moves": "Nibble, Hide, Squirm, Roll",
       "sprite": "https://i.postimg.cc/vmXvX2Kj/Spicebush-Swallowtail-Caterpillar.png",
       "rarity": "Common",
-      "description": "A clever caterpillar that disguises itself to avoid predators."
+      "description": "Mimicking a snake with its false eyes, this caterpillar cleverly deters predators. It transforms into a striking butterfly with bold tails."
     },
     {
       "name": "Sweat Bee",
@@ -16846,7 +16846,7 @@
       "moves": "Sting, Buzz, Dash, Gather",
       "sprite": "https://i.postimg.cc/Xvxgx1PR/Sweat-Bee.png",
       "rarity": "Common",
-      "description": "A tiny bee that is often attracted to human sweat."
+      "description": "Tiny and metallic, sweat bees are drawn to human perspiration for salt. Despite their small size, they are excellent pollinators for wild plants."
     },
     {
       "name": "Warrior Wasp",
@@ -16862,7 +16862,7 @@
       "moves": "Sting, Slash, Dive, Rally",
       "sprite": "https://i.postimg.cc/bvLRLV55/Warrior-Wasp.png",
       "rarity": "Rare",
-      "description": "A fierce wasp with one of the most painful stings in the insect world."
+      "description": "Known for its aggressive defense and potent sting, the warrior wasp commands respect. Its nest resembles a honeycomb and hangs from branches."
     },
     {
       "name": "Brahminy Kite",
@@ -16878,7 +16878,7 @@
       "moves": "Dive, Slash, Wing Buffet, Glide",
       "sprite": "https://i.postimg.cc/QxN2jHNN/Brahminy-Kite.png",
       "rarity": "Uncommon",
-      "description": "A striking raptor with chestnut plumage and white head."
+      "description": "Graceful in flight, the brahminy kite is marked by its white head and chestnut body. It often scavenges near coasts and rivers across Asia."
     },
     {
       "name": "Red Kite",
@@ -16894,7 +16894,7 @@
       "moves": "Dive, Peck, Wing Buffet, Slash",
       "sprite": "https://i.postimg.cc/TY2zTp2f/Red-Kite.png",
       "rarity": "Uncommon",
-      "description": "A graceful bird of prey known for its forked tail."
+      "description": "With forked tails and graceful glides, red kites are masters of aerial elegance. They scavenge carrion but also hunt small mammals and birds."
     },
     {
       "name": "Whistling Kite",
@@ -16910,7 +16910,7 @@
       "moves": "Swoop, Peck, Wing Buffet, Glide",
       "sprite": "https://i.postimg.cc/15RkyfRS/Whistling-Kite.png",
       "rarity": "Uncommon",
-      "description": "A raptor named for its distinctive whistling call."
+      "description": "Named for its high-pitched calls, this kite is a familiar sight over wetlands. It soars on broad wings, searching for fish and carrion."
     },
     {
       "name": "Yellow-billed Kite",
@@ -16926,7 +16926,7 @@
       "moves": "Dive, Slash, Peck, Glide",
       "sprite": "https://i.postimg.cc/FsFMh7Fr/Yellow-billed-Kite.png",
       "rarity": "Uncommon",
-      "description": "A widespread African kite with a bright yellow bill."
+      "description": "A subspecies of the black kite, it stands out with its bright yellow bill. It thrives around human settlements, feeding opportunistically."
     },
     {
       "name": "Long-tailed Honey Buzzard",
@@ -16942,7 +16942,7 @@
       "moves": "Peck, Wing Buffet, Dive, Slash",
       "sprite": "https://i.postimg.cc/W4J3S5xy/Long-tailed-Honey-Buzzard.png",
       "rarity": "Rare",
-      "description": "A rainforest raptor that feeds on bees and wasp nests."
+      "description": "Specializing in raiding bee and wasp nests, it resists stings with dense feathers. Its long tail aids in agile flight through forests."
     },
     {
       "name": "Pallas's Fish Eagle",
@@ -16958,7 +16958,7 @@
       "moves": "Dive, Grab, Peck, Glide",
       "sprite": "https://i.postimg.cc/FKJRGTw8/Pallas-Fish-Eagle.png",
       "rarity": "Rare",
-      "description": "A large fish-eating eagle found across Asia."
+      "description": "A rare raptor, it soars over rivers and lakes of South Asia. Its diet is dominated by fish, but it also preys on waterbirds."
     },
     {
       "name": "Steller's Sea Eagle",
@@ -16974,7 +16974,7 @@
       "moves": "Dive, Slash, Peck, Wing Buffet",
       "sprite": "https://i.postimg.cc/Bv16NmR7/Stellers-Sea-Eagle.png",
       "rarity": "Legendary",
-      "description": "A massive eagle with incredible strength and striking looks."
+      "description": "Massive and striking, it has a huge yellow beak and bold white shoulders. Found in Russia and Japan, it is one of the heaviest eagles."
     },
     {
       "name": "White-tailed Eagle",
@@ -16990,7 +16990,7 @@
       "moves": "Dive, Grab, Peck, Slash",
       "sprite": "https://i.postimg.cc/TPWwQtBS/White-tailed-Eagle.png",
       "rarity": "Epic",
-      "description": "A powerful eagle with a commanding presence near water."
+      "description": "Sometimes called the sea eagle, it reigns over northern coasts and lakes. Its broad wings make it a powerful yet graceful flier."
     },
     {
       "name": "African Sea Eagle",
@@ -17006,7 +17006,7 @@
       "moves": "Dive, Grab, Peck, Wing Buffet",
       "sprite": "https://i.postimg.cc/7Ydb7vWb/African-Sea-Eagle.png",
       "rarity": "Epic",
-      "description": "Known for its haunting call, this eagle rules African waterways."
+      "description": "With black, chestnut, and white plumage, it’s one of Africa’s most iconic birds. Its haunting calls often echo across lakes and rivers."
     },
     {
       "name": "Madagascar Fish Eagle",
@@ -17022,7 +17022,7 @@
       "moves": "Dive, Grab, Peck, Slash",
       "sprite": "https://i.postimg.cc/c426Yqbv/Madagascar-Fish-Eagle.png",
       "rarity": "Rare",
-      "description": "One of the rarest birds of prey in the world."
+      "description": "Critically endangered, this eagle is found only in Madagascar. It primarily feeds on fish, hunting with spectacular dives."
     },
     {
       "name": "Sanford's Sea Eagle",
@@ -17038,7 +17038,7 @@
       "moves": "Dive, Peck, Slash, Wing Buffet",
       "sprite": "https://i.postimg.cc/vHkD9RNT/Sanford-Sea-Eagle.png",
       "rarity": "Rare",
-      "description": "A striking sea eagle found only in the Solomon Islands."
+      "description": "Endemic to the Solomon Islands, it dominates coastal and riverine habitats. Its diet includes fish, turtles, and sea snakes."
     },
     {
       "name": "White-bellied Sea Eagle",
@@ -17054,7 +17054,7 @@
       "moves": "Dive, Grab, Peck, Glide",
       "sprite": "https://i.postimg.cc/8P9sW805/White-bellied-Sea-Eagle.png",
       "rarity": "Rare",
-      "description": "A graceful white and gray eagle often seen near water."
+      "description": "A powerful coastal hunter, it is easily recognized by its white belly and chest. It snatches prey with sudden dives and strong talons."
     },
     {
       "name": "Crane Hawk",
@@ -17070,7 +17070,7 @@
       "moves": "Swoop, Peck, Grab, Wing Buffet",
       "sprite": "https://i.postimg.cc/43T66HS1/Crane-Hawk.png",
       "rarity": "Uncommon",
-      "description": "A slim hawk skilled at hunting in dense forest."
+      "description": "With long double-jointed legs, it extracts prey from tree cavities. Its plumage is mostly gray with striking red eyes."
     },
     {
       "name": "Grey-headed Fish Eagle",
@@ -17086,7 +17086,7 @@
       "moves": "Dive, Grab, Peck, Slash",
       "sprite": "https://i.postimg.cc/6QNrr4m0/Grey-headed-Fish-Eagle.png",
       "rarity": "Rare",
-      "description": "A fish-hunting eagle with a distinctive gray head."
+      "description": "A raptor of Asian rivers and wetlands, it hunts mainly fish. Its pale head contrasts with its dark brown wings and back."
     },
     {
       "name": "Kodiak Bear",
@@ -17102,7 +17102,7 @@
       "moves": "Swipe, Bite, Roar, Slam",
       "sprite": "https://i.postimg.cc/DzKrr4MB/Kodiak-Bear.png",
       "rarity": "Legendary",
-      "description": "One of the largest bears in the world, powerful and imposing."
+      "description": "Among the largest bears, it rivals polar bears in size. Native to Alaska, it feeds on salmon runs and coastal foods."
     },
     {
       "name": "Lesser Fish Eagle",
@@ -17118,7 +17118,7 @@
       "moves": "Grab, Peck, Dive, Glide",
       "sprite": "https://i.postimg.cc/1zZGGVjM/Lesser-Fish-Eagle.png",
       "rarity": "Uncommon",
-      "description": "A smaller eagle that hunts fish with precision."
+      "description": "Found near forested rivers, this small eagle specializes in fishing. It is shy and often perches quietly near water."
     },
     {
       "name": "Grasshopper Buzzard",
@@ -17134,7 +17134,7 @@
       "moves": "Dive, Peck, Slash, Glide",
       "sprite": "https://i.postimg.cc/g0ZYWnzy/Grasshopper-Buzzard.png",
       "rarity": "Uncommon",
-      "description": "A small buzzard that feeds heavily on grasshoppers during dry seasons."
+      "description": "A savanna raptor, it feasts heavily on grasshoppers during dry seasons. Its plumage is a blend of brown, gray, and rusty tones."
     },
     {
       "name": "Grey-faced Buzzard",
@@ -17150,7 +17150,7 @@
       "moves": "Dive, Peck, Wing Buffet, Slash",
       "sprite": "https://i.postimg.cc/NjVgS1cx/Grey-faced-Buzzard.png",
       "rarity": "Uncommon",
-      "description": "A migratory raptor recognized by its gray head and sharp hunting skills."
+      "description": "Migratory and elegant, it breeds in East Asia and winters in Southeast Asia. Its sharp eyesight makes it an efficient hunter."
     },
     {
       "name": "Rufous-winged Buzzard",
@@ -17166,7 +17166,7 @@
       "moves": "Swoop, Peck, Slash, Wing Buffet",
       "sprite": "https://i.postimg.cc/pdF2HpWz/Rufous-winged-Buzzard.png",
       "rarity": "Uncommon",
-      "description": "A forest buzzard with rufous wings adapted for hunting in dense trees."
+      "description": "With reddish-brown wings, this buzzard inhabits Asian forests and farmland. It preys on reptiles, amphibians, and small mammals."
     },
     {
       "name": "White-eyed Buzzard",
@@ -17182,7 +17182,7 @@
       "moves": "Dive, Peck, Grab, Glide",
       "sprite": "https://i.postimg.cc/3wvKTd8C/White-eyed-Buzzard.png",
       "rarity": "Uncommon",
-      "description": "An Indian buzzard easily identified by its pale white eyes."
+      "description": "Unlike most buzzards, it has a distinct white iris. Found in South Asia, it feeds on insects, reptiles, and small rodents."
     },
     {
       "name": "Black-collared Hawk",
@@ -17198,7 +17198,7 @@
       "moves": "Dive, Grab, Peck, Slash",
       "sprite": "https://i.postimg.cc/BvYwMgfG/Black-collared-Hawk.png",
       "rarity": "Rare",
-      "description": "A striking hawk with a black collar that preys on fish and small animals."
+      "description": "This Neotropical raptor often perches near wetlands with its rust-colored plumage. Its diet is dominated by fish, which it snatches mid-dive."
     },
     {
       "name": "Mississippi Kite",
@@ -17214,7 +17214,7 @@
       "moves": "Dive, Peck, Quick Dash, Glide",
       "sprite": "https://i.postimg.cc/FKWnDZ58/Mississippi-Kite.png",
       "rarity": "Uncommon",
-      "description": "A sleek gray raptor that catches insects on the wing."
+      "description": "Slender and graceful, it soars effortlessly across North America’s skies. It feeds mainly on insects caught in flight."
     },
     {
       "name": "Plumbeous Kite",
@@ -17230,7 +17230,7 @@
       "moves": "Dive, Grab, Peck, Glide",
       "sprite": "https://i.postimg.cc/xdxFtRVQ/Plumbeous-Kite.png",
       "rarity": "Uncommon",
-      "description": "A tropical kite with a gray body and graceful flight."
+      "description": "Grayish and subtle, it migrates widely across the Americas. Dragonflies and other insects are its preferred prey."
     },
     {
       "name": "Snail Kite",
@@ -17246,7 +17246,7 @@
       "moves": "Grab, Peck, Dive, Glide",
       "sprite": "https://i.postimg.cc/cJ95Xmyp/Snail-Kite.png",
       "rarity": "Rare",
-      "description": "A raptor specialized in feeding almost exclusively on apple snails."
+      "description": "With a hooked beak specialized for apple snails, it thrives in wetlands. It is highly adapted to its niche diet."
     },
     {
       "name": "Barred Hawk",
@@ -17262,7 +17262,7 @@
       "moves": "Swoop, Peck, Wing Buffet, Slash",
       "sprite": "https://i.postimg.cc/PxNfR2Lr/Barred-Hawk.png",
       "rarity": "Rare",
-      "description": "A powerful hawk marked with bold barring across its chest."
+      "description": "Large and dark, it inhabits tropical forests of Central and South America. Its barred underparts make it easily identifiable."
     },
     {
       "name": "Bearded Vulture",
@@ -17278,7 +17278,7 @@
       "moves": "Grab, Slash, Wing Buffet, Glide",
       "sprite": "https://i.postimg.cc/j5CqFZWj/Bearded-Vulture.png",
       "rarity": "Legendary",
-      "description": "A vulture that feeds mainly on bone, dropping them from heights to crack them open."
+      "description": "Known as the “bone-breaker,” it drops bones from great heights to crack them. Its fiery plumage comes from dust and iron-rich soils."
     },
     {
       "name": "Palm-nut Vulture",
@@ -17294,7 +17294,7 @@
       "moves": "Peck, Glide, Grab, Slash",
       "sprite": "https://i.postimg.cc/gJrcTNwc/Palm-nut-Vulture.png",
       "rarity": "Rare",
-      "description": "An unusual vulture that feeds largely on palm fruits and carrion."
+      "description": "Unique among raptors, it feeds mainly on palm fruits. Its white plumage and black wing tips stand out in African wetlands."
     },
     {
       "name": "Slender-billed Kite",
@@ -17310,7 +17310,7 @@
       "moves": "Grab, Peck, Dive, Glide",
       "sprite": "https://i.postimg.cc/ydW6bvJV/Slender-billed-Kite.png",
       "rarity": "Uncommon",
-      "description": "A rare kite with a slender hooked bill adapted for snail hunting."
+      "description": "With a thin, curved beak, it specializes in feeding on snails. It is a wetland hunter of South America."
     },
     {
       "name": "Western Marsh Harrier",
@@ -17326,7 +17326,7 @@
       "moves": "Swoop, Grab, Peck, Glide",
       "sprite": "https://i.postimg.cc/V65sVDSf/Western-Marsh-Harrier.png",
       "rarity": "Uncommon",
-      "description": "A wetland raptor that glides low over reeds searching for prey."
+      "description": "A bird of reed beds and marshes, it glides low over water in search of prey. It feeds on birds, small mammals, and amphibians."
     },
     {
       "name": "African Harrier-hawk",
@@ -17342,7 +17342,7 @@
       "moves": "Slash, Grab, Peck, Glide",
       "sprite": "https://i.postimg.cc/nLpGBQXN/African-Harrier-hawk.png",
       "rarity": "Rare",
-      "description": "A versatile hawk with double-jointed legs for extracting prey from holes."
+      "description": "Double-jointed legs allow it to raid nests and tree holes. Its facial skin changes color with its mood."
     },
     {
       "name": "Egyptian Vulture",
@@ -17358,7 +17358,7 @@
       "moves": "Peck, Grab, Slash, Glide",
       "sprite": "https://i.postimg.cc/q74xyCNS/Egyptian-Vulture.png",
       "rarity": "Rare",
-      "description": "A clever vulture known for using stones to crack eggs."
+      "description": "Tool-using and clever, it cracks eggs with stones. Its white body and yellow face make it distinctive across Africa and Europe."
     },
     {
       "name": "Madagascan Harrier-hawk",
@@ -17374,7 +17374,7 @@
       "moves": "Swoop, Grab, Peck, Slash",
       "sprite": "https://i.postimg.cc/JhM5ZBsg/Madagascan-Harrier-hawk.png",
       "rarity": "Rare",
-      "description": "A forest hawk from Madagascar with unique foraging skills."
+      "description": "Agile and adaptable, it hunts in Madagascar’s forests and savannas. Its long legs help it reach hidden prey."
     }
   ]
 }
