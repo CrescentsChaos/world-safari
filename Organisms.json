@@ -17779,7 +17779,7 @@
     {
       "name": "Shire Horse",
       "scientific_name": "Equus ferus caballus",
-      "habitat": "Grassland, Farm",
+      "habitat": "Jungle",
       "drops": "Hoof",
       "attack": 75,
       "defense": 80,
@@ -17891,7 +17891,7 @@
     {
       "name": "Clydesdale Horse",
       "scientific_name": "Equus ferus caballus",
-      "habitat": "Grassland, Farm",
+      "habitat": "Jungle",
       "drops": "Hoof",
       "attack": 78,
       "defense": 82,
@@ -17907,7 +17907,7 @@
     {
       "name": "Friesian Horse",
       "scientific_name": "Equus ferus caballus",
-      "habitat": "Grassland, Farm",
+      "habitat": "Jungle",
       "drops": "Hoof",
       "attack": 76,
       "defense": 78,
@@ -17923,7 +17923,7 @@
     {
       "name": "Percheron Horse",
       "scientific_name": "Equus ferus caballus",
-      "habitat": "Grassland, Farm",
+      "habitat": "Jungle",
       "drops": "Hoof",
       "attack": 80,
       "defense": 85,
@@ -17939,7 +17939,7 @@
     {
       "name": "Dairy Cow Isopod",
       "scientific_name": "Porcellio bovis",
-      "habitat": "Farm, Grassland",
+      "habitat": "Jungle",
       "drops": "Exoskeleton",
       "attack": 20,
       "defense": 30,
@@ -17971,7 +17971,7 @@
     {
       "name": "Rubber Ducky Isopod",
       "scientific_name": "Cubaris sp.",
-      "habitat": "Forest, Jungle",
+      "habitat": "Jungle,Mountain",
       "drops": "Exoskeleton",
       "attack": 18,
       "defense": 28,
@@ -17987,7 +17987,7 @@
     {
       "name": "Antole-Watusi",
       "scientific_name": "Bos taurus",
-      "habitat": "Grassland, Farm",
+      "habitat": "Jungle",
       "drops": "Horn",
       "attack": 85,
       "defense": 75,
@@ -18003,7 +18003,7 @@
     {
       "name": "Chianina",
       "scientific_name": "Bos taurus",
-      "habitat": "Grassland, Farm",
+      "habitat": "Jungle",
       "drops": "Hoof",
       "attack": 88,
       "defense": 78,
@@ -18019,7 +18019,7 @@
     {
       "name": "German Angus",
       "scientific_name": "Bos taurus",
-      "habitat": "Grassland, Farm",
+      "habitat": "Jungle",
       "drops": "Hoof",
       "attack": 80,
       "defense": 72,
